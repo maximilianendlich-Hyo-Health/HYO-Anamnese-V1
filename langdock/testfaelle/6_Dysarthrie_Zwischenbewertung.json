@@ -1,0 +1,752 @@
+{
+  "schema": "HYO_Anamnese_Datenfelder.xlsx",
+  "payload_version": 1,
+  "gesendet_am": "2026-11-02T09:56:54.804Z",
+  "tinana_patient_id": "P-TEST-0006",
+  "therapeut": "MH",
+  "alter_monate": 943,
+  "diagnosegruppe": "SP6",
+  "stammdaten_enthalten": false,
+  "felder": {
+    "vo_icd10": "I63.5",
+    "vo_diagnosegruppe": "SP6",
+    "vo_leitsymptomatik": "a",
+    "vo_menge": "10",
+    "vo_frequenz": "2x wöchentlich",
+    "vo_hausbesuch": "nein",
+    "vo_terminart": "VERLAUF",
+    "vo_bericht_angefordert": "nein",
+    "vo_vertretung": "SELBST",
+    "vo_einw_aufnahme": "JA",
+    "mv_vd_abgleich": "KONGR",
+    "mv_vd": "DYSAR",
+    "mv_zus_dg_vorhanden": "nein",
+    "mv_phase": "POSTAK",
+    "mv_risiko": [
+      "AZ"
+    ],
+    "mv_allergie_nahrung": [
+      "KEINE"
+    ],
+    "mv_allergie_material": [
+      "LATEX"
+    ],
+    "la_versorgung": [
+      "ANGEH",
+      "PD"
+    ],
+    "la_bezugsperson": "Max Muster (Sohn), +4917012345678",
+    "la_beruf_status": "RENTE",
+    "la_beruf": "Lehrerin",
+    "la_erstsprache_de": "ja",
+    "la_hoeren": "HG",
+    "la_sehen": "BRILLE",
+    "dy_ursache": "PARK",
+    "dy_praemorbid": [
+      "KEINE"
+    ],
+    "dy_verlauf": "SCHWANK",
+    "dy_veraenderung": [
+      "LAUT",
+      "ANSTR"
+    ],
+    "dy_vers_pat": "3",
+    "dy_vers_angeh": "4",
+    "dy_situationen": [
+      "TEL",
+      "GRUPPE"
+    ],
+    "dy_verhalten": [
+      "TEL_MEID"
+    ],
+    "dy_erleben": [
+      "FRUST"
+    ],
+    "dy_strategien": [
+      "LANGSAM",
+      "WIEDERH"
+    ],
+    "bf_onoff": "ON",
+    "bf_begleit": [
+      "DYSPH",
+      "ERMUED"
+    ],
+    "bf_abgrenzung": "DYS",
+    "bd_status": "VOLL",
+    "bd_datum": "2026-11-03",
+    "bd_variante": "VOLL",
+    "bd_atm_t": "38",
+    "bd_st1_t": "38",
+    "bd_st2_t": "38",
+    "bd_st3_t": "38",
+    "bd_art_t": "38",
+    "bd_res_t": "38",
+    "bd_tem_t": "38",
+    "bd_rdf_t": "38",
+    "bd_mod_t": "38",
+    "bd_gesamt": 41.5,
+    "bd_klass": "ja",
+    "bd_form": "HYPOKIN",
+    "bd_schwere": "MITTEL",
+    "bd_bogen": "ja",
+    "vt_vers_ther": "3",
+    "vt_kommpas_status": "NICHT",
+    "vt_vox_status": "DURCHF",
+    "vt_snr": "ja",
+    "vt_avqi": 4.1,
+    "vt_abi": 3.8,
+    "vt_spl": "68",
+    "vt_mpt": 9.5,
+    "vt_cpib_status": "SELBST",
+    "vt_cpib": "17",
+    "de_status": "ABGESCHL",
+    "de_indikation": "JA",
+    "de_schwerpunkte": [
+      "STIMME",
+      "KOMP"
+    ],
+    "de_ziel_situation": "TEL",
+    "de_ziel_smart": "Telefoniert 2×/Woche mit der Hausarztpraxis, ohne dass mehr als einmal nachgefragt wird, bis 31.01.2027",
+    "de_gas_ausgang": "M1",
+    "de_frequenz": "W2",
+    "de_dauer": "45",
+    "de_eigentraining": "ja",
+    "de_hilfsmittel": [
+      "KEINE"
+    ],
+    "de_bericht": "KURZ",
+    "dz_datum": "2027-01-28",
+    "dz_gas": "P0",
+    "dz_bodys": "BESSER",
+    "dz_vers_ther": "2",
+    "dz_cpib": "21",
+    "dz_avqi": 3.2,
+    "dz_fortschritt": "JA",
+    "dz_entscheidung": "FOLGE",
+    "dz_ziel_neu": "ja"
+  },
+  "lesbar": [
+    {
+      "id": "VO-14",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Diagnose (ICD-10-GM)",
+      "wert": "I63.5"
+    },
+    {
+      "id": "VO-15",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Diagnosegruppe",
+      "wert": "Störungen der Sprechmotorik (Dysarthrie, Sprechapraxie)"
+    },
+    {
+      "id": "VO-16",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Leitsymptomatik",
+      "wert": "a"
+    },
+    {
+      "id": "VO-19",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Verordnungsmenge",
+      "wert": "10"
+    },
+    {
+      "id": "VO-20",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Therapiefrequenz",
+      "wert": "2x wöchentlich"
+    },
+    {
+      "id": "VO-21",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Hausbesuch",
+      "wert": "nein"
+    },
+    {
+      "id": "VO-25",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Aufnahme",
+      "feld": "Terminart",
+      "wert": "Zwischenbewertung (Ende der Verordnung)"
+    },
+    {
+      "id": "VO-26",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Bericht und Einwilligung",
+      "feld": "Therapiebericht angefordert (Muster 13)",
+      "wert": "nein"
+    },
+    {
+      "id": "VO-27",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Bericht und Einwilligung",
+      "feld": "Einwilligung / Vertretung",
+      "wert": "selbst"
+    },
+    {
+      "id": "VO-28",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Bericht und Einwilligung",
+      "feld": "Einwilligung Audio-, Video- und Fotoaufnahmen",
+      "wert": "liegt vor"
+    },
+    {
+      "id": "MV-05",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Verdachtsdiagnose und Abklärung",
+      "feld": "Logopädische Verdachtsdiagnose",
+      "wert": "kongruent mit HMVO"
+    },
+    {
+      "id": "MV-06",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Verdachtsdiagnose und Abklärung",
+      "feld": "Behandlungsfeld",
+      "wert": "Dysarthrie"
+    },
+    {
+      "id": "MV-32",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Verdachtsdiagnose und Abklärung",
+      "feld": "Zusätzliches Behandlungsfeld aus logopädischer Sicht",
+      "wert": "nein"
+    },
+    {
+      "id": "MV-46",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Krankheitsphase und Risiken",
+      "feld": "Krankheitsphase",
+      "wert": "postakut (< 6 Monate)"
+    },
+    {
+      "id": "MV-15",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Krankheitsphase und Risiken",
+      "feld": "Allgemeine Risikofaktoren",
+      "wert": "AZ / Herz-Kreislauf eingeschränkt"
+    },
+    {
+      "id": "MV-22",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Allergien",
+      "feld": "Nahrungsmittelallergien",
+      "wert": "keine bekannt"
+    },
+    {
+      "id": "MV-24",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Allergien",
+      "feld": "Materialallergien",
+      "wert": "Latex"
+    },
+    {
+      "id": "LA-01",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Versorgung",
+      "feld": "Häusliche Versorgung",
+      "wert": "Unterstützung durch Angehörige; ambulanter Pflegedienst"
+    },
+    {
+      "id": "LA-03",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Versorgung",
+      "feld": "Bezugsperson / Kontakt",
+      "wert": "Max Muster (Sohn), +4917012345678"
+    },
+    {
+      "id": "LA-04",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Beruf",
+      "feld": "Berufliche Situation",
+      "wert": "in Rente"
+    },
+    {
+      "id": "LA-06",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Beruf",
+      "feld": "Beruf (aktuell bzw. zuletzt)",
+      "wert": "Lehrerin"
+    },
+    {
+      "id": "LA-07",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Kommunikation",
+      "feld": "Erstsprache Deutsch",
+      "wert": "ja"
+    },
+    {
+      "id": "LA-09",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Rahmenbedingungen",
+      "feld": "Hören",
+      "wert": "Hörgerät"
+    },
+    {
+      "id": "LA-10",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Rahmenbedingungen",
+      "feld": "Sehen",
+      "wert": "Brille"
+    },
+    {
+      "id": "DY-02",
+      "abschnitt": "5 Dysarthrie-Anamnese",
+      "gruppe": "Erkrankung",
+      "feld": "Grunderkrankung",
+      "wert": "Parkinson-Syndrom"
+    },
+    {
+      "id": "DY-05",
+      "abschnitt": "5 Dysarthrie-Anamnese",
+      "gruppe": "Vorbehandlung",
+      "feld": "Vorbestehende Sprech-, Stimm- oder Atemstörung",
+      "wert": "keine"
+    },
+    {
+      "id": "DY-07",
+      "abschnitt": "5 Dysarthrie-Anamnese",
+      "gruppe": "Verlauf",
+      "feld": "Verlauf seit Beginn",
+      "wert": "schwankend"
+    },
+    {
+      "id": "DY-08",
+      "abschnitt": "5 Dysarthrie-Anamnese",
+      "gruppe": "Beschwerden und Veränderungen",
+      "feld": "Beschwerden und Veränderungen beim Sprechen",
+      "wert": "Lautstärke; Anstrengung beim Sprechen"
+    },
+    {
+      "id": "DY-09",
+      "abschnitt": "5 Dysarthrie-Anamnese",
+      "gruppe": "Subjektive Verständlichkeit",
+      "feld": "Verständlichkeit – Einschätzung Patient:in",
+      "wert": "3"
+    },
+    {
+      "id": "DY-10",
+      "abschnitt": "5 Dysarthrie-Anamnese",
+      "gruppe": "Subjektive Verständlichkeit",
+      "feld": "Verständlichkeit – Einschätzung An-/Zugehörige:r",
+      "wert": "4"
+    },
+    {
+      "id": "DY-11",
+      "abschnitt": "5 Dysarthrie-Anamnese",
+      "gruppe": "Aktivität & Partizipation",
+      "feld": "Schwierige Situationen im Alltag",
+      "wert": "Telefonieren; Gespräche in Gruppen"
+    },
+    {
+      "id": "DY-12",
+      "abschnitt": "5 Dysarthrie-Anamnese",
+      "gruppe": "Aktivität & Partizipation",
+      "feld": "Eigenes Sprechverhalten",
+      "wert": "meidet Telefonate"
+    },
+    {
+      "id": "DY-13",
+      "abschnitt": "5 Dysarthrie-Anamnese",
+      "gruppe": "Personenbezogene Faktoren",
+      "feld": "Eigenerleben der Störung",
+      "wert": "Frustration"
+    },
+    {
+      "id": "DY-14",
+      "abschnitt": "5 Dysarthrie-Anamnese",
+      "gruppe": "Personenbezogene Faktoren",
+      "feld": "Genutzte Strategien und Hilfen",
+      "wert": "langsamer / deutlicher sprechen; wiederholen"
+    },
+    {
+      "id": "BF-01",
+      "abschnitt": "6 Befund: Abgrenzung + BoDyS",
+      "gruppe": "Begleitfaktoren",
+      "feld": "Medikationszustand bei der Untersuchung",
+      "wert": "On"
+    },
+    {
+      "id": "BF-02",
+      "abschnitt": "6 Befund: Abgrenzung + BoDyS",
+      "gruppe": "Begleitfaktoren",
+      "feld": "Begleitfaktoren",
+      "wert": "Schluckauffälligkeiten; geringe Belastbarkeit / Ermüdbarkeit"
+    },
+    {
+      "id": "BF-03",
+      "abschnitt": "6 Befund: Abgrenzung + BoDyS",
+      "gruppe": "Abgrenzung",
+      "feld": "Einordnung nach Abgrenzung",
+      "wert": "Dysarthrie"
+    },
+    {
+      "id": "BD-01",
+      "abschnitt": "6 Befund: Abgrenzung + BoDyS",
+      "gruppe": "BoDyS Durchführung",
+      "feld": "BoDyS durchgeführt",
+      "wert": "vollständig"
+    },
+    {
+      "id": "BD-03",
+      "abschnitt": "6 Befund: Abgrenzung + BoDyS",
+      "gruppe": "BoDyS Durchführung",
+      "feld": "Datum",
+      "wert": "2026-11-03"
+    },
+    {
+      "id": "BD-04",
+      "abschnitt": "6 Befund: Abgrenzung + BoDyS",
+      "gruppe": "BoDyS Durchführung",
+      "feld": "Testvariante",
+      "wert": "Vollversion (12 Sprechproben)"
+    },
+    {
+      "id": "BD-05",
+      "abschnitt": "6 Befund: Abgrenzung + BoDyS",
+      "gruppe": "BoDyS T-Werte",
+      "feld": "Sprechatmung – T-Wert",
+      "wert": "38"
+    },
+    {
+      "id": "BD-06",
+      "abschnitt": "6 Befund: Abgrenzung + BoDyS",
+      "gruppe": "BoDyS T-Werte",
+      "feld": "Stimme – Skala 1 – T-Wert",
+      "wert": "38"
+    },
+    {
+      "id": "BD-07",
+      "abschnitt": "6 Befund: Abgrenzung + BoDyS",
+      "gruppe": "BoDyS T-Werte",
+      "feld": "Stimme – Skala 2 – T-Wert",
+      "wert": "38"
+    },
+    {
+      "id": "BD-08",
+      "abschnitt": "6 Befund: Abgrenzung + BoDyS",
+      "gruppe": "BoDyS T-Werte",
+      "feld": "Stimme – Skala 3 – T-Wert",
+      "wert": "38"
+    },
+    {
+      "id": "BD-09",
+      "abschnitt": "6 Befund: Abgrenzung + BoDyS",
+      "gruppe": "BoDyS T-Werte",
+      "feld": "Artikulation – T-Wert",
+      "wert": "38"
+    },
+    {
+      "id": "BD-10",
+      "abschnitt": "6 Befund: Abgrenzung + BoDyS",
+      "gruppe": "BoDyS T-Werte",
+      "feld": "Resonanz – T-Wert",
+      "wert": "38"
+    },
+    {
+      "id": "BD-11",
+      "abschnitt": "6 Befund: Abgrenzung + BoDyS",
+      "gruppe": "BoDyS T-Werte",
+      "feld": "Sprechtempo (Prosodie) – T-Wert",
+      "wert": "38"
+    },
+    {
+      "id": "BD-12",
+      "abschnitt": "6 Befund: Abgrenzung + BoDyS",
+      "gruppe": "BoDyS T-Werte",
+      "feld": "Redefluss (Prosodie) – T-Wert",
+      "wert": "38"
+    },
+    {
+      "id": "BD-13",
+      "abschnitt": "6 Befund: Abgrenzung + BoDyS",
+      "gruppe": "BoDyS T-Werte",
+      "feld": "Modulation (Prosodie) – T-Wert",
+      "wert": "38"
+    },
+    {
+      "id": "BD-14",
+      "abschnitt": "6 Befund: Abgrenzung + BoDyS",
+      "gruppe": "BoDyS Ergebnis",
+      "feld": "Gesamtschweregrad (Profilhöhe)",
+      "wert": "41.5"
+    },
+    {
+      "id": "BD-15",
+      "abschnitt": "6 Befund: Abgrenzung + BoDyS",
+      "gruppe": "BoDyS Ergebnis",
+      "feld": "Dysarthrie laut Schwellenwert",
+      "wert": "ja"
+    },
+    {
+      "id": "BD-16",
+      "abschnitt": "6 Befund: Abgrenzung + BoDyS",
+      "gruppe": "BoDyS Ergebnis",
+      "feld": "Dysarthrieform",
+      "wert": "hypokinetisch (rigid-hypokinetisch)"
+    },
+    {
+      "id": "BD-17",
+      "abschnitt": "6 Befund: Abgrenzung + BoDyS",
+      "gruppe": "BoDyS Ergebnis",
+      "feld": "Schweregrad",
+      "wert": "mittelgradig"
+    },
+    {
+      "id": "BD-18",
+      "abschnitt": "6 Befund: Abgrenzung + BoDyS",
+      "gruppe": "BoDyS Ergebnis",
+      "feld": "Auswertungsbogen eingescannt und abgelegt",
+      "wert": "ja"
+    },
+    {
+      "id": "VT-01",
+      "abschnitt": "7 Verständlichkeit, Stimme, Teilhabe",
+      "gruppe": "Verständlichkeit",
+      "feld": "Verständlichkeit im Gespräch – Einschätzung Logopäd:in",
+      "wert": "3"
+    },
+    {
+      "id": "VT-02",
+      "abschnitt": "7 Verständlichkeit, Stimme, Teilhabe",
+      "gruppe": "Verständlichkeit (KommPaS)",
+      "feld": "KommPaS durchgeführt",
+      "wert": "nicht nutzbar / nicht durchgeführt"
+    },
+    {
+      "id": "VT-04",
+      "abschnitt": "7 Verständlichkeit, Stimme, Teilhabe",
+      "gruppe": "Stimme (VOXplot, optional)",
+      "feld": "Akustische Stimmanalyse VOXplot",
+      "wert": "durchgeführt"
+    },
+    {
+      "id": "VT-05",
+      "abschnitt": "7 Verständlichkeit, Stimme, Teilhabe",
+      "gruppe": "Stimme (VOXplot, optional)",
+      "feld": "SNR-Prüfung bestanden",
+      "wert": "ja"
+    },
+    {
+      "id": "VT-06",
+      "abschnitt": "7 Verständlichkeit, Stimme, Teilhabe",
+      "gruppe": "Stimme (VOXplot, optional)",
+      "feld": "AVQI",
+      "wert": "4.1"
+    },
+    {
+      "id": "VT-07",
+      "abschnitt": "7 Verständlichkeit, Stimme, Teilhabe",
+      "gruppe": "Stimme (VOXplot, optional)",
+      "feld": "ABI",
+      "wert": "3.8"
+    },
+    {
+      "id": "VT-08",
+      "abschnitt": "7 Verständlichkeit, Stimme, Teilhabe",
+      "gruppe": "Stimme (LSVT-Ausgangswerte)",
+      "feld": "Schalldruckpegel gehaltener Vokal",
+      "wert": "68"
+    },
+    {
+      "id": "VT-09",
+      "abschnitt": "7 Verständlichkeit, Stimme, Teilhabe",
+      "gruppe": "Stimme (LSVT-Ausgangswerte)",
+      "feld": "Tonhaltedauer",
+      "wert": "9.5"
+    },
+    {
+      "id": "VT-10",
+      "abschnitt": "7 Verständlichkeit, Stimme, Teilhabe",
+      "gruppe": "Teilhabe (CPIB-10)",
+      "feld": "CPIB-10 ausgefüllt",
+      "wert": "selbstständig"
+    },
+    {
+      "id": "VT-11",
+      "abschnitt": "7 Verständlichkeit, Stimme, Teilhabe",
+      "gruppe": "Teilhabe (CPIB-10)",
+      "feld": "CPIB-10 Summenwert",
+      "wert": "17"
+    },
+    {
+      "id": "DE-01",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Diagnostik",
+      "feld": "Status Erstdiagnostik",
+      "wert": "abgeschlossen"
+    },
+    {
+      "id": "DE-02",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Diagnostik",
+      "feld": "Therapieindikation",
+      "wert": "ja"
+    },
+    {
+      "id": "DE-03",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Therapieplanung",
+      "feld": "Therapieschwerpunkte",
+      "wert": "Phonation / Lautstärke; Kommunikationsstrategien"
+    },
+    {
+      "id": "DE-04",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Teilhabeziel",
+      "feld": "Alltagssituation des Teilhabeziels",
+      "wert": "Telefonieren"
+    },
+    {
+      "id": "DE-05",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Teilhabeziel",
+      "feld": "Teilhabeziel (SMART) = GAS-Stufe 0",
+      "wert": "Telefoniert 2×/Woche mit der Hausarztpraxis, ohne dass mehr als einmal nachgefragt wird, bis 31.01.2027"
+    },
+    {
+      "id": "DE-06",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Teilhabeziel",
+      "feld": "GAS-Ausgangsstufe",
+      "wert": "−1"
+    },
+    {
+      "id": "DE-07",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Therapieplanung",
+      "feld": "Frequenz",
+      "wert": "2× pro Woche"
+    },
+    {
+      "id": "DE-08",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Therapieplanung",
+      "feld": "Dauer der Einheit",
+      "wert": "45 Minuten"
+    },
+    {
+      "id": "DE-09",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Therapieplanung",
+      "feld": "Eigentraining vereinbart",
+      "wert": "ja"
+    },
+    {
+      "id": "DE-10",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Therapieplanung",
+      "feld": "Empfehlung Hilfsmittel / UK",
+      "wert": "keine"
+    },
+    {
+      "id": "DE-11",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Bericht",
+      "feld": "Bericht an Zuweiser:in",
+      "wert": "kurze Befundmitteilung"
+    },
+    {
+      "id": "DZ-01",
+      "abschnitt": "9 Zwischenbewertung",
+      "gruppe": "Zwischenbewertung",
+      "feld": "Datum",
+      "wert": "2027-01-28"
+    },
+    {
+      "id": "DZ-02",
+      "abschnitt": "9 Zwischenbewertung",
+      "gruppe": "Zwischenbewertung",
+      "feld": "Zielerreichung Teilhabeziel (GAS)",
+      "wert": "0 erwartetes Ergebnis (SMART-Ziel erreicht)"
+    },
+    {
+      "id": "DZ-03",
+      "abschnitt": "9 Zwischenbewertung",
+      "gruppe": "Wiederholung",
+      "feld": "BoDyS / Aufnahmen im Vergleich zum Ausgangsbefund",
+      "wert": "besser"
+    },
+    {
+      "id": "DZ-04",
+      "abschnitt": "9 Zwischenbewertung",
+      "gruppe": "Wiederholung",
+      "feld": "Verständlichkeit im Gespräch – Einschätzung Logopäd:in",
+      "wert": "2"
+    },
+    {
+      "id": "DZ-06",
+      "abschnitt": "9 Zwischenbewertung",
+      "gruppe": "Wiederholung",
+      "feld": "CPIB-10 Summenwert",
+      "wert": "21"
+    },
+    {
+      "id": "DZ-07",
+      "abschnitt": "9 Zwischenbewertung",
+      "gruppe": "Wiederholung",
+      "feld": "AVQI",
+      "wert": "3.2"
+    },
+    {
+      "id": "DZ-08",
+      "abschnitt": "9 Zwischenbewertung",
+      "gruppe": "Bewertung",
+      "feld": "Messbarer Fortschritt",
+      "wert": "ja"
+    },
+    {
+      "id": "DZ-09",
+      "abschnitt": "9 Zwischenbewertung",
+      "gruppe": "Bewertung",
+      "feld": "Entscheidung",
+      "wert": "Folgeverordnung anregen"
+    },
+    {
+      "id": "DZ-10",
+      "abschnitt": "9 Zwischenbewertung",
+      "gruppe": "Bewertung",
+      "feld": "Teilhabeziel neu formuliert",
+      "wert": "ja"
+    }
+  ],
+  "screening": [
+    {
+      "sc_modul": "DYSAR",
+      "sc_instrument": "DYSAR-S1",
+      "sc_datum": "2026-11-02",
+      "sc_score": "mittelgradig",
+      "sc_einordnung": null,
+      "sc_konsequenz": []
+    },
+    {
+      "sc_modul": "DYSAR",
+      "sc_instrument": "DYSAR-S3",
+      "sc_datum": "2026-11-02",
+      "sc_score": "17",
+      "sc_einordnung": null,
+      "sc_konsequenz": []
+    },
+    {
+      "sc_modul": "DYSAR",
+      "sc_instrument": "DYSAR-S4",
+      "sc_datum": "2026-11-02",
+      "sc_score": "4.1",
+      "sc_einordnung": null,
+      "sc_konsequenz": []
+    },
+    {
+      "sc_modul": "DYSAR",
+      "sc_instrument": "DYSAR-O1",
+      "sc_datum": "2026-11-02",
+      "sc_score": "0 erwartetes Ergebnis (SMART-Ziel erreicht)",
+      "sc_einordnung": null,
+      "sc_konsequenz": []
+    }
+  ]
+}

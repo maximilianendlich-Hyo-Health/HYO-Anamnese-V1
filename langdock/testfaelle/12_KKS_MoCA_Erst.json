@@ -1,0 +1,318 @@
+{
+  "schema": "HYO_Anamnese_Datenfelder.xlsx",
+  "payload_version": 1,
+  "gesendet_am": "2026-11-02T12:42:24.831Z",
+  "tinana_patient_id": "P-TEST-0012",
+  "therapeut": "MH",
+  "alter_monate": 943,
+  "diagnosegruppe": "SP5",
+  "stammdaten_enthalten": false,
+  "felder": {
+    "vo_icd10": "I63.5",
+    "vo_diagnosegruppe": "SP5",
+    "vo_leitsymptomatik": "a",
+    "vo_menge": "10",
+    "vo_frequenz": "2x wöchentlich",
+    "vo_hausbesuch": "nein",
+    "vo_terminart": "ERST",
+    "vo_bericht_angefordert": "ja",
+    "vo_vertretung": "SELBST",
+    "vo_einw_aufnahme": "JA",
+    "mv_vd_abgleich": "KONGR",
+    "mv_vd": "KKS",
+    "mv_zus_dg_vorhanden": "nein",
+    "mv_phase": "POSTAK",
+    "mv_risiko": [
+      "KEINE"
+    ],
+    "mv_allergie_nahrung": [
+      "KEINE"
+    ],
+    "mv_allergie_material": [
+      "KEINE"
+    ],
+    "la_versorgung": [
+      "ANGEH",
+      "PD"
+    ],
+    "la_bezugsperson": "Max Muster (Sohn), +4917012345678",
+    "la_beruf_status": "RENTE",
+    "la_beruf": "Lehrerin",
+    "la_erstsprache_de": "ja",
+    "la_hoeren": "HG",
+    "la_sehen": "BRILLE",
+    "km_status": "JA",
+    "km_datum": "2026-11-05",
+    "km_version": "V81",
+    "km_bildung": "ja",
+    "km_rohwert": "23",
+    "km_gesamt": 24,
+    "km_bewertung": "LEICHT",
+    "km_bereiche": [
+      "VISEX",
+      "ABRUF"
+    ],
+    "km_protokoll": "ja",
+    "km_einordnung": "HINWEIS",
+    "km_empf_npsy": "JA"
+  },
+  "lesbar": [
+    {
+      "id": "VO-14",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Diagnose (ICD-10-GM)",
+      "wert": "I63.5"
+    },
+    {
+      "id": "VO-15",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Diagnosegruppe",
+      "wert": "Störungen der Sprache nach Abschluss der Sprachentwicklung (Aphasie)"
+    },
+    {
+      "id": "VO-16",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Leitsymptomatik",
+      "wert": "a"
+    },
+    {
+      "id": "VO-19",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Verordnungsmenge",
+      "wert": "10"
+    },
+    {
+      "id": "VO-20",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Therapiefrequenz",
+      "wert": "2x wöchentlich"
+    },
+    {
+      "id": "VO-21",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Hausbesuch",
+      "wert": "nein"
+    },
+    {
+      "id": "VO-25",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Aufnahme",
+      "feld": "Untersuchung",
+      "wert": "Erstuntersuchung"
+    },
+    {
+      "id": "VO-26",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Bericht und Einwilligung",
+      "feld": "Therapiebericht angefordert (Muster 13)",
+      "wert": "ja"
+    },
+    {
+      "id": "VO-27",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Bericht und Einwilligung",
+      "feld": "Einwilligung / Vertretung",
+      "wert": "selbst"
+    },
+    {
+      "id": "VO-28",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Bericht und Einwilligung",
+      "feld": "Einwilligung Audio-, Video- und Fotoaufnahmen",
+      "wert": "liegt vor"
+    },
+    {
+      "id": "MV-05",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Verdachtsdiagnose und Abklärung",
+      "feld": "Logopädische Verdachtsdiagnose",
+      "wert": "kongruent mit HMVO"
+    },
+    {
+      "id": "MV-06",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Verdachtsdiagnose und Abklärung",
+      "feld": "Behandlungsfeld",
+      "wert": "Kognitive Kommunikationsstörung"
+    },
+    {
+      "id": "MV-32",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Verdachtsdiagnose und Abklärung",
+      "feld": "Zusätzliches Behandlungsfeld aus logopädischer Sicht",
+      "wert": "nein"
+    },
+    {
+      "id": "MV-46",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Krankheitsphase und Risiken",
+      "feld": "Krankheitsphase",
+      "wert": "postakut (< 6 Monate)"
+    },
+    {
+      "id": "MV-15",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Krankheitsphase und Risiken",
+      "feld": "Allgemeine Risikofaktoren",
+      "wert": "keine"
+    },
+    {
+      "id": "MV-22",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Allergien",
+      "feld": "Nahrungsmittelallergien",
+      "wert": "keine bekannt"
+    },
+    {
+      "id": "MV-24",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Allergien",
+      "feld": "Materialallergien",
+      "wert": "keine bekannt"
+    },
+    {
+      "id": "LA-01",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Versorgung",
+      "feld": "Häusliche Versorgung",
+      "wert": "Unterstützung durch Angehörige; ambulanter Pflegedienst"
+    },
+    {
+      "id": "LA-03",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Versorgung",
+      "feld": "Bezugsperson / Kontakt",
+      "wert": "Max Muster (Sohn), +4917012345678"
+    },
+    {
+      "id": "LA-04",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Beruf",
+      "feld": "Berufliche Situation",
+      "wert": "in Rente"
+    },
+    {
+      "id": "LA-06",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Beruf",
+      "feld": "Beruf (aktuell bzw. zuletzt)",
+      "wert": "Lehrerin"
+    },
+    {
+      "id": "LA-07",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Kommunikation",
+      "feld": "Erstsprache Deutsch",
+      "wert": "ja"
+    },
+    {
+      "id": "LA-09",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Rahmenbedingungen",
+      "feld": "Hören",
+      "wert": "Hörgerät"
+    },
+    {
+      "id": "LA-10",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Rahmenbedingungen",
+      "feld": "Sehen",
+      "wert": "Brille"
+    },
+    {
+      "id": "KM-01",
+      "abschnitt": "10 KKS: MoCA (interne Abgrenzung)",
+      "gruppe": "Durchführung",
+      "feld": "MoCA durchgeführt",
+      "wert": "durchgeführt"
+    },
+    {
+      "id": "KM-03",
+      "abschnitt": "10 KKS: MoCA (interne Abgrenzung)",
+      "gruppe": "Durchführung",
+      "feld": "Datum",
+      "wert": "2026-11-05"
+    },
+    {
+      "id": "KM-04",
+      "abschnitt": "10 KKS: MoCA (interne Abgrenzung)",
+      "gruppe": "Durchführung",
+      "feld": "Testversion",
+      "wert": "Version 8.1"
+    },
+    {
+      "id": "KM-05",
+      "abschnitt": "10 KKS: MoCA (interne Abgrenzung)",
+      "gruppe": "Ergebnis",
+      "feld": "Schulbildung 12 Jahre oder weniger (Bildungspunkt)",
+      "wert": "ja"
+    },
+    {
+      "id": "KM-06",
+      "abschnitt": "10 KKS: MoCA (interne Abgrenzung)",
+      "gruppe": "Ergebnis",
+      "feld": "Rohwert (ohne Bildungspunkt)",
+      "wert": "23"
+    },
+    {
+      "id": "KM-07",
+      "abschnitt": "10 KKS: MoCA (interne Abgrenzung)",
+      "gruppe": "Ergebnis",
+      "feld": "Gesamtwert",
+      "wert": "24"
+    },
+    {
+      "id": "KM-08",
+      "abschnitt": "10 KKS: MoCA (interne Abgrenzung)",
+      "gruppe": "Ergebnis",
+      "feld": "Bewertung",
+      "wert": "6–25: mindestens leichte kognitive Einschränkungen"
+    },
+    {
+      "id": "KM-09",
+      "abschnitt": "10 KKS: MoCA (interne Abgrenzung)",
+      "gruppe": "Ergebnis",
+      "feld": "Punktverlust in Bereichen",
+      "wert": "visuell-räumlich / exekutiv; verzögerter Abruf (sprachgebunden)"
+    },
+    {
+      "id": "KM-10",
+      "abschnitt": "10 KKS: MoCA (interne Abgrenzung)",
+      "gruppe": "Ergebnis",
+      "feld": "Protokollbogen abgelegt",
+      "wert": "ja"
+    },
+    {
+      "id": "KM-11",
+      "abschnitt": "10 KKS: MoCA (interne Abgrenzung)",
+      "gruppe": "Beurteilung",
+      "feld": "Interne Einordnung",
+      "wert": "Hinweis auf kognitive Beeinträchtigung"
+    },
+    {
+      "id": "KM-12",
+      "abschnitt": "10 KKS: MoCA (interne Abgrenzung)",
+      "gruppe": "Beurteilung",
+      "feld": "Empfehlung neuropsychologische Abklärung an Ärzt:in",
+      "wert": "ja, im Bericht empfohlen"
+    }
+  ],
+  "screening": [
+    {
+      "sc_modul": "KKS",
+      "sc_instrument": "KKS-S1",
+      "sc_datum": "2026-11-02",
+      "sc_score": "24 / 30 · mindestens leichte kognitive Einschränkungen",
+      "sc_einordnung": "AUFF",
+      "sc_konsequenz": [
+        "TH"
+      ]
+    }
+  ]
+}

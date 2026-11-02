@@ -1,0 +1,896 @@
+{
+  "schema": "HYO_Anamnese_Datenfelder.xlsx",
+  "payload_version": 1,
+  "gesendet_am": "2026-11-02T12:42:20.403Z",
+  "tinana_patient_id": "P-TEST-0011",
+  "therapeut": "MH",
+  "alter_monate": 943,
+  "diagnosegruppe": "SP6",
+  "stammdaten_enthalten": false,
+  "felder": {
+    "vo_icd10": "I63.5",
+    "vo_diagnosegruppe": "SP6",
+    "vo_leitsymptomatik": "a",
+    "vo_menge": "10",
+    "vo_frequenz": "2x wöchentlich",
+    "vo_hausbesuch": "nein",
+    "vo_terminart": "ERST",
+    "vo_bericht_angefordert": "ja",
+    "vo_vertretung": "SELBST",
+    "vo_einw_aufnahme": "JA",
+    "mv_vd_abgleich": "KONGR",
+    "mv_vd": "FAZ",
+    "mv_zus_dg_vorhanden": "nein",
+    "mv_phase": "POSTAK",
+    "mv_risiko": [
+      "KEINE"
+    ],
+    "mv_allergie_nahrung": [
+      "KEINE"
+    ],
+    "mv_allergie_material": [
+      "KEINE"
+    ],
+    "la_versorgung": [
+      "ANGEH",
+      "PD"
+    ],
+    "la_bezugsperson": "Max Muster (Sohn), +4917012345678",
+    "la_beruf_status": "RENTE",
+    "la_beruf": "Lehrerin",
+    "la_erstsprache_de": "ja",
+    "la_hoeren": "HG",
+    "la_sehen": "BRILLE",
+    "fa_ursache": "BELL",
+    "fa_lokalisation": "PERIPH",
+    "fa_seite": "LI",
+    "fa_beginn": "2026-09-14",
+    "fa_wochen": 7,
+    "fa_verlauf": "BESSER",
+    "fa_hb_arzt": "IV",
+    "fa_vorbefunde": [
+      "ARZTBRIEF"
+    ],
+    "fa_augenschutz": [
+      "TRAENEN",
+      "SALBE"
+    ],
+    "fa_beschwerden": [
+      "LID",
+      "FLUESS",
+      "AUSSEHEN"
+    ],
+    "fa_vortherapie": [
+      "KEINE"
+    ],
+    "fa_kontraind": [
+      "KEINE"
+    ],
+    "fa_redflags": [
+      "KEINE"
+    ],
+    "fs_status": "DURCHF",
+    "fs_bewertung": "VIDEO",
+    "fs_ruhe_auge": "0",
+    "fs_ruhe_wange": "1_WENIGER",
+    "fs_ruhe_mund": "0",
+    "fs_ruhe_score": 5,
+    "fs_w_stirn": "2",
+    "fs_w_auge": "3",
+    "fs_w_laecheln": "3",
+    "fs_w_zaehne": "2",
+    "fs_w_lippen": "4",
+    "fs_willk_score": 56,
+    "fs_s_stirn": "0",
+    "fs_s_auge": "1",
+    "fs_s_laecheln": "1",
+    "fs_s_zaehne": "0",
+    "fs_s_lippen": "1",
+    "fs_synk_score": 3,
+    "fs_summe": 48,
+    "fs_hb_eigen": "IV",
+    "fs_abgelegt": "ja",
+    "fb_lidschluss": "ANSTR",
+    "fb_oral": [
+      "BECHER",
+      "WANGENTASCHE"
+    ],
+    "fb_lippenlaute": "LEICHT",
+    "fb_sensibilitaet": "INTAKT",
+    "fb_weitere_sop": [
+      "KEINE"
+    ],
+    "fb_face_status": "DURCHF",
+    "fb_phase": "ERHOLUNG",
+    "fq_eingang": "1",
+    "fq_item01": "3",
+    "fq_item02": "2",
+    "fq_item03": "3",
+    "fq_item04": "3",
+    "fq_item05": "2",
+    "fq_item06": "4",
+    "fq_item07": "2",
+    "fq_item08": "4",
+    "fq_item09": "3",
+    "fq_item10": "4",
+    "fq_item11": "3",
+    "fq_item12": "3",
+    "fq_item13": "3",
+    "fq_item14": "4",
+    "fq_item15": "4",
+    "fq_bewegung": 41.7,
+    "fq_komfort": 58.3,
+    "fq_mund": 50,
+    "fq_auge": 25,
+    "fq_traenen": 75,
+    "fq_sozial": 68.8,
+    "fq_gesamt": 53.3,
+    "fp_status": "ABGESCHL",
+    "fp_indikation": "JA",
+    "fp_schwerpunkt": [
+      "SELEKT",
+      "LID",
+      "BERATUNG"
+    ],
+    "fp_methoden": [
+      "SPIEGEL",
+      "NOVAFON",
+      "BERATUNG"
+    ],
+    "fp_ziel_smart": "Bis 15.01.2027 trinkt Patient:in aus dem Glas, ohne dass Flüssigkeit aus dem Mundwinkel läuft",
+    "fp_gas_ausgang": "M1",
+    "fp_funkt_messgr": "SB_SUMME",
+    "fp_funkt_ziel": 65,
+    "fp_frequenz": "W2",
+    "fp_dauer": "45",
+    "fp_eigentraining": [
+      "SPIEGEL",
+      "SYNK_PROPH"
+    ],
+    "fp_empfehlung": [
+      "AUGE"
+    ],
+    "fp_bericht": "VOLL"
+  },
+  "lesbar": [
+    {
+      "id": "VO-14",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Diagnose (ICD-10-GM)",
+      "wert": "I63.5"
+    },
+    {
+      "id": "VO-15",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Diagnosegruppe",
+      "wert": "Störungen der Sprechmotorik (Dysarthrie, Sprechapraxie)"
+    },
+    {
+      "id": "VO-16",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Leitsymptomatik",
+      "wert": "a"
+    },
+    {
+      "id": "VO-19",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Verordnungsmenge",
+      "wert": "10"
+    },
+    {
+      "id": "VO-20",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Therapiefrequenz",
+      "wert": "2x wöchentlich"
+    },
+    {
+      "id": "VO-21",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Hausbesuch",
+      "wert": "nein"
+    },
+    {
+      "id": "VO-25",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Aufnahme",
+      "feld": "Untersuchung",
+      "wert": "Erstuntersuchung"
+    },
+    {
+      "id": "VO-26",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Bericht und Einwilligung",
+      "feld": "Therapiebericht angefordert (Muster 13)",
+      "wert": "ja"
+    },
+    {
+      "id": "VO-27",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Bericht und Einwilligung",
+      "feld": "Einwilligung / Vertretung",
+      "wert": "selbst"
+    },
+    {
+      "id": "VO-28",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Bericht und Einwilligung",
+      "feld": "Einwilligung Audio-, Video- und Fotoaufnahmen",
+      "wert": "liegt vor"
+    },
+    {
+      "id": "MV-05",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Verdachtsdiagnose und Abklärung",
+      "feld": "Logopädische Verdachtsdiagnose",
+      "wert": "kongruent mit HMVO"
+    },
+    {
+      "id": "MV-06",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Verdachtsdiagnose und Abklärung",
+      "feld": "Behandlungsfeld",
+      "wert": "Fazialisparese"
+    },
+    {
+      "id": "MV-32",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Verdachtsdiagnose und Abklärung",
+      "feld": "Zusätzliches Behandlungsfeld aus logopädischer Sicht",
+      "wert": "nein"
+    },
+    {
+      "id": "MV-46",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Krankheitsphase und Risiken",
+      "feld": "Krankheitsphase",
+      "wert": "postakut (< 6 Monate)"
+    },
+    {
+      "id": "MV-15",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Krankheitsphase und Risiken",
+      "feld": "Allgemeine Risikofaktoren",
+      "wert": "keine"
+    },
+    {
+      "id": "MV-22",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Allergien",
+      "feld": "Nahrungsmittelallergien",
+      "wert": "keine bekannt"
+    },
+    {
+      "id": "MV-24",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Allergien",
+      "feld": "Materialallergien",
+      "wert": "keine bekannt"
+    },
+    {
+      "id": "LA-01",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Versorgung",
+      "feld": "Häusliche Versorgung",
+      "wert": "Unterstützung durch Angehörige; ambulanter Pflegedienst"
+    },
+    {
+      "id": "LA-03",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Versorgung",
+      "feld": "Bezugsperson / Kontakt",
+      "wert": "Max Muster (Sohn), +4917012345678"
+    },
+    {
+      "id": "LA-04",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Beruf",
+      "feld": "Berufliche Situation",
+      "wert": "in Rente"
+    },
+    {
+      "id": "LA-06",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Beruf",
+      "feld": "Beruf (aktuell bzw. zuletzt)",
+      "wert": "Lehrerin"
+    },
+    {
+      "id": "LA-07",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Kommunikation",
+      "feld": "Erstsprache Deutsch",
+      "wert": "ja"
+    },
+    {
+      "id": "LA-09",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Rahmenbedingungen",
+      "feld": "Hören",
+      "wert": "Hörgerät"
+    },
+    {
+      "id": "LA-10",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Rahmenbedingungen",
+      "feld": "Sehen",
+      "wert": "Brille"
+    },
+    {
+      "id": "FA-02",
+      "abschnitt": "5 Fazialis-Anamnese",
+      "gruppe": "Erkrankung",
+      "feld": "Ursache laut Arztbrief",
+      "wert": "idiopathisch (Bell)"
+    },
+    {
+      "id": "FA-03",
+      "abschnitt": "5 Fazialis-Anamnese",
+      "gruppe": "Erkrankung",
+      "feld": "Lokalisation",
+      "wert": "peripher"
+    },
+    {
+      "id": "FA-04",
+      "abschnitt": "5 Fazialis-Anamnese",
+      "gruppe": "Erkrankung",
+      "feld": "Betroffene Seite",
+      "wert": "links"
+    },
+    {
+      "id": "FA-05",
+      "abschnitt": "5 Fazialis-Anamnese",
+      "gruppe": "Verlauf",
+      "feld": "Beginn der Lähmung",
+      "wert": "2026-09-14"
+    },
+    {
+      "id": "FA-06",
+      "abschnitt": "5 Fazialis-Anamnese",
+      "gruppe": "Verlauf",
+      "feld": "Zeit seit Beginn (Wochen)",
+      "wert": "7"
+    },
+    {
+      "id": "FA-07",
+      "abschnitt": "5 Fazialis-Anamnese",
+      "gruppe": "Verlauf",
+      "feld": "Verlauf seit Beginn",
+      "wert": "besser / rückläufig"
+    },
+    {
+      "id": "FA-08",
+      "abschnitt": "5 Fazialis-Anamnese",
+      "gruppe": "Vorbefunde",
+      "feld": "House-Brackmann laut Arztbrief",
+      "wert": "IV mäßig schwer"
+    },
+    {
+      "id": "FA-09",
+      "abschnitt": "5 Fazialis-Anamnese",
+      "gruppe": "Vorbefunde",
+      "feld": "Vorbefunde vorhanden",
+      "wert": "Arztbrief"
+    },
+    {
+      "id": "FA-10",
+      "abschnitt": "5 Fazialis-Anamnese",
+      "gruppe": "Auge und Alltag",
+      "feld": "Augenschutz aktuell",
+      "wert": "Tränenersatz; Augensalbe"
+    },
+    {
+      "id": "FA-11",
+      "abschnitt": "5 Fazialis-Anamnese",
+      "gruppe": "Auge und Alltag",
+      "feld": "Beschwerden im Alltag",
+      "wert": "Lidschluss/trockenes Auge; Flüssigkeit aus Mundwinkel; Aussehen/psychische Belastung"
+    },
+    {
+      "id": "FA-12",
+      "abschnitt": "5 Fazialis-Anamnese",
+      "gruppe": "Vorbehandlung",
+      "feld": "Vortherapie",
+      "wert": "keine"
+    },
+    {
+      "id": "FA-13",
+      "abschnitt": "5 Fazialis-Anamnese",
+      "gruppe": "Sicherheit",
+      "feld": "Kontraindikationen Novafon / thermale Stimulation",
+      "wert": "keine"
+    },
+    {
+      "id": "FA-14",
+      "abschnitt": "5 Fazialis-Anamnese",
+      "gruppe": "Sicherheit",
+      "feld": "Red Flags",
+      "wert": "keine"
+    },
+    {
+      "id": "FS-01",
+      "abschnitt": "6 Sunnybrook",
+      "gruppe": "Durchführung",
+      "feld": "Sunnybrook Durchführung",
+      "wert": "durchgeführt"
+    },
+    {
+      "id": "FS-02",
+      "abschnitt": "6 Sunnybrook",
+      "gruppe": "Durchführung",
+      "feld": "Bewertung anhand",
+      "wert": "Standardvideo"
+    },
+    {
+      "id": "FS-03",
+      "abschnitt": "6 Sunnybrook",
+      "gruppe": "Ruhesymmetrie",
+      "feld": "Ruhe: Auge (nur eins wählen)",
+      "wert": "0 normal"
+    },
+    {
+      "id": "FS-04",
+      "abschnitt": "6 Sunnybrook",
+      "gruppe": "Ruhesymmetrie",
+      "feld": "Ruhe: Wange (Nasolabialfalte)",
+      "wert": "1 weniger ausgeprägt"
+    },
+    {
+      "id": "FS-05",
+      "abschnitt": "6 Sunnybrook",
+      "gruppe": "Ruhesymmetrie",
+      "feld": "Ruhe: Mund",
+      "wert": "0 normal"
+    },
+    {
+      "id": "FS-06",
+      "abschnitt": "6 Sunnybrook",
+      "gruppe": "Ruhesymmetrie",
+      "feld": "Ruhesymmetrie-Score (0–20)",
+      "wert": "5"
+    },
+    {
+      "id": "FS-07",
+      "abschnitt": "6 Sunnybrook",
+      "gruppe": "Willkürbewegung",
+      "feld": "Willkür: Augenbrauen heben (M. frontalis)",
+      "wert": "2 führt geringe Bewegung aus"
+    },
+    {
+      "id": "FS-08",
+      "abschnitt": "6 Sunnybrook",
+      "gruppe": "Willkürbewegung",
+      "feld": "Willkür: dezenter Augenschluss (M. orbicularis oculi)",
+      "wert": "3 führt Bewegung mit schwachem Bewegungsumfang aus"
+    },
+    {
+      "id": "FS-09",
+      "abschnitt": "6 Sunnybrook",
+      "gruppe": "Willkürbewegung",
+      "feld": "Willkür: mit geöffnetem Mund lächeln (M. zygomaticus, M. risorius)",
+      "wert": "3 führt Bewegung mit schwachem Bewegungsumfang aus"
+    },
+    {
+      "id": "FS-10",
+      "abschnitt": "6 Sunnybrook",
+      "gruppe": "Willkürbewegung",
+      "feld": "Willkür: Zähne zeigen (M. levator labii superior)",
+      "wert": "2 führt geringe Bewegung aus"
+    },
+    {
+      "id": "FS-11",
+      "abschnitt": "6 Sunnybrook",
+      "gruppe": "Willkürbewegung",
+      "feld": "Willkür: Lippen spitzen (M. orbicularis oris)",
+      "wert": "4 Bewegung fast vollständig"
+    },
+    {
+      "id": "FS-12",
+      "abschnitt": "6 Sunnybrook",
+      "gruppe": "Willkürbewegung",
+      "feld": "Willkürbewegungs-Score (20–100)",
+      "wert": "56"
+    },
+    {
+      "id": "FS-13",
+      "abschnitt": "6 Sunnybrook",
+      "gruppe": "Synkinese",
+      "feld": "Synkinese: Augenbrauen heben",
+      "wert": "0 nicht: keine Synkinese oder Massenbewegung"
+    },
+    {
+      "id": "FS-14",
+      "abschnitt": "6 Sunnybrook",
+      "gruppe": "Synkinese",
+      "feld": "Synkinese: dezenter Augenschluss",
+      "wert": "1 schwach: geringe Synkinese"
+    },
+    {
+      "id": "FS-15",
+      "abschnitt": "6 Sunnybrook",
+      "gruppe": "Synkinese",
+      "feld": "Synkinese: mit geöffnetem Mund lächeln",
+      "wert": "1 schwach: geringe Synkinese"
+    },
+    {
+      "id": "FS-16",
+      "abschnitt": "6 Sunnybrook",
+      "gruppe": "Synkinese",
+      "feld": "Synkinese: Zähne zeigen",
+      "wert": "0 nicht: keine Synkinese oder Massenbewegung"
+    },
+    {
+      "id": "FS-17",
+      "abschnitt": "6 Sunnybrook",
+      "gruppe": "Synkinese",
+      "feld": "Synkinese: Lippen spitzen",
+      "wert": "1 schwach: geringe Synkinese"
+    },
+    {
+      "id": "FS-18",
+      "abschnitt": "6 Sunnybrook",
+      "gruppe": "Synkinese",
+      "feld": "Synkinesescore (0–15)",
+      "wert": "3"
+    },
+    {
+      "id": "FS-19",
+      "abschnitt": "6 Sunnybrook",
+      "gruppe": "Ergebnis",
+      "feld": "Sunnybrook-Summenscore (0–100)",
+      "wert": "48"
+    },
+    {
+      "id": "FS-20",
+      "abschnitt": "6 Sunnybrook",
+      "gruppe": "Ergebnis",
+      "feld": "House-Brackmann (eigene Einordnung)",
+      "wert": "IV mäßig schwer"
+    },
+    {
+      "id": "FS-21",
+      "abschnitt": "6 Sunnybrook",
+      "gruppe": "Ergebnis",
+      "feld": "Bogen/Video abgelegt",
+      "wert": "ja"
+    },
+    {
+      "id": "FB-01",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "Funktionen",
+      "feld": "Lidschluss",
+      "wert": "vollständig mit Anstrengung"
+    },
+    {
+      "id": "FB-03",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "Funktionen",
+      "feld": "Orale Funktion (Trinken, Essen, Speichel)",
+      "wert": "Flüssigkeitsaustritt beim Trinken aus dem Becher; Speisereste in der Wangentasche"
+    },
+    {
+      "id": "FB-04",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "Funktionen",
+      "feld": "Lippenlaute /p b m f w/",
+      "wert": "leicht"
+    },
+    {
+      "id": "FB-05",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "Funktionen",
+      "feld": "Sensibilität Gesicht",
+      "wert": "intakt"
+    },
+    {
+      "id": "FB-06",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "Funktionen",
+      "feld": "Weitere SOP nötig",
+      "wert": "keine"
+    },
+    {
+      "id": "FB-07",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE",
+      "feld": "FaCE Durchführung",
+      "wert": "durchgeführt"
+    },
+    {
+      "id": "FB-08",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "Phase",
+      "feld": "Phase",
+      "wert": "Erholung"
+    },
+    {
+      "id": "FQ-00",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE Fragebogen",
+      "feld": "Eingangsfrage: Schwierigkeiten beim Bewegen des Gesichts",
+      "wert": "1 einer Seite"
+    },
+    {
+      "id": "FQ-01",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE Fragebogen",
+      "feld": "FaCE Item 1: Beim Lächeln bewegt sich die betroffene Seite des Mundes aufwärts",
+      "wert": "3 ein wenig"
+    },
+    {
+      "id": "FQ-02",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE Fragebogen",
+      "feld": "FaCE Item 2: Kann die Augenbraue auf der betroffenen Seite anheben",
+      "wert": "2 nur wenn ich mich konzentriere"
+    },
+    {
+      "id": "FQ-03",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE Fragebogen",
+      "feld": "FaCE Item 3: Beim Lippenspitzen bewegt sich die betroffene Seite des Mundes",
+      "wert": "3 ein wenig"
+    },
+    {
+      "id": "FQ-04",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE Fragebogen",
+      "feld": "FaCE Item 4: Teile des Gesichts fühlen sich verspannt, erschöpft oder unbequem an",
+      "wert": "3 einen Teil der Zeit"
+    },
+    {
+      "id": "FQ-05",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE Fragebogen",
+      "feld": "FaCE Item 5: Betroffenes Auge trocken/irritiert/Fremdkörpergefühl",
+      "wert": "2 die meiste Zeit"
+    },
+    {
+      "id": "FQ-06",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE Fragebogen",
+      "feld": "FaCE Item 6: Beim Bewegen Anspannung, Schmerzen oder Krämpfe",
+      "wert": "4 ein wenig Zeit"
+    },
+    {
+      "id": "FQ-07",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE Fragebogen",
+      "feld": "FaCE Item 7: Benutzt Augentropfen oder Augensalbe",
+      "wert": "2 die meiste Zeit"
+    },
+    {
+      "id": "FQ-08",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE Fragebogen",
+      "feld": "FaCE Item 8: Betroffenes Auge nässt oder tränt",
+      "wert": "4 ein wenig Zeit"
+    },
+    {
+      "id": "FQ-09",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE Fragebogen",
+      "feld": "FaCE Item 9: Verhält sich unter Leuten anders",
+      "wert": "3 einen Teil der Zeit"
+    },
+    {
+      "id": "FQ-10",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE Fragebogen",
+      "feld": "FaCE Item 10: Leute behandeln mich anders",
+      "wert": "4 ein wenig Zeit"
+    },
+    {
+      "id": "FQ-11",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE Fragebogen",
+      "feld": "FaCE Item 11: Schwierigkeiten, Nahrung im Mund herumzubewegen",
+      "wert": "3 einen Teil der Zeit"
+    },
+    {
+      "id": "FQ-12",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE Fragebogen",
+      "feld": "FaCE Item 12: Probleme mit Speichel, Essen/Trinken im Mund halten, Kinn/Kleidung sauber halten",
+      "wert": "3 einen Teil der Zeit"
+    },
+    {
+      "id": "FQ-13",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE Fragebogen",
+      "feld": "FaCE Item 13: Gesicht fühlt sich müde an bzw. Anspannung/Schmerz/Krämpfe beim Bewegen",
+      "wert": "3 weiß es nicht"
+    },
+    {
+      "id": "FQ-14",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE Fragebogen",
+      "feld": "FaCE Item 14: Aussehen hat Bereitschaft zu sozialen Aktivitäten verändert",
+      "wert": "4 stimme nicht zu"
+    },
+    {
+      "id": "FQ-15",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE Fragebogen",
+      "feld": "FaCE Item 15: Vermeidet Essen im Restaurant/bei anderen Leuten",
+      "wert": "4 stimme nicht zu"
+    },
+    {
+      "id": "FQ-16",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE Auswertung",
+      "feld": "Gesichtsbewegung (0–100)",
+      "wert": "41.7"
+    },
+    {
+      "id": "FQ-17",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE Auswertung",
+      "feld": "Gesichtskomfort (0–100)",
+      "wert": "58.3"
+    },
+    {
+      "id": "FQ-18",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE Auswertung",
+      "feld": "Mundfunktion (0–100)",
+      "wert": "50"
+    },
+    {
+      "id": "FQ-19",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE Auswertung",
+      "feld": "Augenkomfort (0–100)",
+      "wert": "25"
+    },
+    {
+      "id": "FQ-20",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE Auswertung",
+      "feld": "Tränenkontrolle (0–100)",
+      "wert": "75"
+    },
+    {
+      "id": "FQ-21",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE Auswertung",
+      "feld": "Soziale Funktion (0–100)",
+      "wert": "68.8"
+    },
+    {
+      "id": "FQ-22",
+      "abschnitt": "7 Funktionen und FaCE",
+      "gruppe": "FaCE Auswertung",
+      "feld": "FaCE Gesamt (0–100)",
+      "wert": "53.3"
+    },
+    {
+      "id": "FP-01",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Diagnostik",
+      "feld": "Status Erstdiagnostik",
+      "wert": "abgeschlossen"
+    },
+    {
+      "id": "FP-02",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Diagnostik",
+      "feld": "Indikation",
+      "wert": "ja"
+    },
+    {
+      "id": "FP-03",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Therapieplanung",
+      "feld": "Schwerpunkte",
+      "wert": "selektive Bewegung/Symmetrie; Lidschluss; Beratung/Eigentraining"
+    },
+    {
+      "id": "FP-04",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Therapieplanung",
+      "feld": "Methoden",
+      "wert": "Spiegel-Feedback; Novafon; Beratung"
+    },
+    {
+      "id": "FP-05",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Therapieziel",
+      "feld": "Teilhabeziel (SMART)",
+      "wert": "Bis 15.01.2027 trinkt Patient:in aus dem Glas, ohne dass Flüssigkeit aus dem Mundwinkel läuft"
+    },
+    {
+      "id": "FP-06",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Therapieziel",
+      "feld": "GAS-Ausgangsstufe",
+      "wert": "−1"
+    },
+    {
+      "id": "FP-07",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Therapieziel",
+      "feld": "Funktionsziel Messgröße",
+      "wert": "Sunnybrook-Summenscore"
+    },
+    {
+      "id": "FP-08",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Therapieziel",
+      "feld": "Funktionsziel Zielwert",
+      "wert": "65"
+    },
+    {
+      "id": "FP-09",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Therapieplanung",
+      "feld": "Frequenz pro Woche",
+      "wert": "2× pro Woche"
+    },
+    {
+      "id": "FP-10",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Therapieplanung",
+      "feld": "Dauer Folgetermine",
+      "wert": "45 Minuten"
+    },
+    {
+      "id": "FP-11",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Therapieplanung",
+      "feld": "Eigentraining",
+      "wert": "Spiegelübungen täglich; Synkinesie-Prophylaxe"
+    },
+    {
+      "id": "FP-12",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Abschluss",
+      "feld": "Empfehlungen/Hinweise an Zuweiser:in",
+      "wert": "Augenheilkunde"
+    },
+    {
+      "id": "FP-13",
+      "abschnitt": "8 Abschluss Erstdiagnostik",
+      "gruppe": "Abschluss",
+      "feld": "Bericht an Zuweiser:in",
+      "wert": "ausführlicher Bericht (auf Verordnung angefordert)"
+    }
+  ],
+  "screening": [
+    {
+      "sc_modul": "FAZ",
+      "sc_instrument": "FAZ-S1",
+      "sc_datum": "2026-11-02",
+      "sc_score": "48",
+      "sc_einordnung": "AUFF",
+      "sc_konsequenz": [
+        "TH"
+      ]
+    },
+    {
+      "sc_modul": "FAZ",
+      "sc_instrument": "FAZ-S2",
+      "sc_datum": "2026-11-02",
+      "sc_score": "Lidschluss vollständig mit Anstrengung · Lippenlaute leicht",
+      "sc_einordnung": "AUFF",
+      "sc_konsequenz": [
+        "TH"
+      ]
+    },
+    {
+      "sc_modul": "FAZ",
+      "sc_instrument": "FAZ-S3",
+      "sc_datum": "2026-11-02",
+      "sc_score": "53.3",
+      "sc_einordnung": "AUFF",
+      "sc_konsequenz": [
+        "TH"
+      ]
+    }
+  ]
+}

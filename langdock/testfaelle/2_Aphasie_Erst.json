@@ -1,0 +1,777 @@
+{
+  "schema": "HYO_Anamnese_Datenfelder.xlsx",
+  "payload_version": 1,
+  "gesendet_am": "2026-11-02T12:42:19.239Z",
+  "tinana_patient_id": "P-TEST-0002",
+  "therapeut": "MH",
+  "alter_monate": 943,
+  "diagnosegruppe": "SP5",
+  "stammdaten_enthalten": false,
+  "felder": {
+    "vo_icd10": "I63.5",
+    "vo_diagnosegruppe": "SP5",
+    "vo_leitsymptomatik": "a",
+    "vo_menge": "10",
+    "vo_frequenz": "2x wöchentlich",
+    "vo_hausbesuch": "nein",
+    "vo_terminart": "ERST",
+    "vo_bericht_angefordert": "ja",
+    "vo_vertretung": "SELBST",
+    "vo_einw_aufnahme": "JA",
+    "mv_vd_abgleich": "KONGR",
+    "mv_vd": "APH",
+    "mv_zus_dg_vorhanden": "nein",
+    "mv_phase": "POSTAK",
+    "mv_risiko": [
+      "KEINE"
+    ],
+    "mv_allergie_nahrung": [
+      "KEINE"
+    ],
+    "mv_allergie_material": [
+      "KEINE"
+    ],
+    "la_versorgung": [
+      "ANGEH",
+      "PD"
+    ],
+    "la_bezugsperson": "Max Muster (Sohn), +4917012345678",
+    "la_beruf_status": "RENTE",
+    "la_beruf": "Lehrerin",
+    "la_erstsprache_de": "ja",
+    "la_hoeren": "HG",
+    "la_sehen": "BRILLE",
+    "aa_aetiologie": "ISCH",
+    "aa_seite": "LI",
+    "aa_verlauf": "BESSER",
+    "aa_vortherapie_monate": "6",
+    "aa_begleit": [
+      "HEMI_RE",
+      "SPAX"
+    ],
+    "aa_haendigkeit": "RE",
+    "aa_bildung": "MSA",
+    "aa_lesen_prae": "VIEL",
+    "aa_schreiben_prae": "GELEG",
+    "aa_situationen": [
+      "FAM",
+      "TEL",
+      "ARZT"
+    ],
+    "aa_partner": [
+      "PARTN",
+      "KIND"
+    ],
+    "aa_mittel": [
+      "SPR",
+      "GEST"
+    ],
+    "aa_janein": "JA",
+    "aa_stimmung": "UNAUF",
+    "aa_vertretung": "KEINE",
+    "bi_status": "VOLL",
+    "bi_datum": "2026-11-03",
+    "bi_sp_aufnahme": "ja",
+    "bi_sp_fluss": "NFL",
+    "bi_sp_symptome": [
+      "WF",
+      "PHONPAR",
+      "TELEG"
+    ],
+    "bi_aud_roh": "12",
+    "bi_aud_t": "42",
+    "bi_aud_pr": "21",
+    "bi_aud_stufe": "MITTEL",
+    "bi_lese_roh": "12",
+    "bi_lese_t": "42",
+    "bi_lese_pr": "21",
+    "bi_lese_stufe": "MITTEL",
+    "bi_benenn_roh": "12",
+    "bi_benenn_t": "42",
+    "bi_benenn_pr": "21",
+    "bi_benenn_stufe": "MITTEL",
+    "bi_nachspr_roh": "12",
+    "bi_nachspr_t": "42",
+    "bi_nachspr_pr": "21",
+    "bi_nachspr_stufe": "MITTEL",
+    "bi_lautlesen_roh": "12",
+    "bi_lautlesen_t": "42",
+    "bi_lautlesen_pr": "21",
+    "bi_lautlesen_stufe": "MITTEL",
+    "bi_schreib_roh": "12",
+    "bi_schreib_t": "42",
+    "bi_schreib_pr": "21",
+    "bi_schreib_stufe": "MITTEL",
+    "bi_schwere": "MITTEL",
+    "bi_syndrom": "BROCA",
+    "bi_protokoll": "ja",
+    "al_verfahren": "CPIB",
+    "al_cpib_summe": "17",
+    "al_saqol_gesamt": 3.4,
+    "ae_status": "ABGESCHL",
+    "ae_kks": "KEINE",
+    "ae_schwerpunkt": [
+      "WORT",
+      "AUDV"
+    ],
+    "ae_teilhabe": [
+      "TEL"
+    ],
+    "ae_ziel": "ruft selbstständig die Tochter an und vereinbart einen Termin",
+    "ae_ansatz": [
+      "STOER",
+      "PACE",
+      "ANGEH"
+    ],
+    "ae_frequenz": "W2",
+    "ae_dauer": "45",
+    "ae_eigentraining": "APP",
+    "ae_uk": [
+      "KEINE"
+    ],
+    "ae_weitere": [
+      "KSU",
+      "SHG",
+      "HWL"
+    ],
+    "ae_vermerk_ergdiag": [
+      "HWL"
+    ]
+  },
+  "lesbar": [
+    {
+      "id": "VO-14",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Diagnose (ICD-10-GM)",
+      "wert": "I63.5"
+    },
+    {
+      "id": "VO-15",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Diagnosegruppe",
+      "wert": "Störungen der Sprache nach Abschluss der Sprachentwicklung (Aphasie)"
+    },
+    {
+      "id": "VO-16",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Leitsymptomatik",
+      "wert": "a"
+    },
+    {
+      "id": "VO-19",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Verordnungsmenge",
+      "wert": "10"
+    },
+    {
+      "id": "VO-20",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Therapiefrequenz",
+      "wert": "2x wöchentlich"
+    },
+    {
+      "id": "VO-21",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Hausbesuch",
+      "wert": "nein"
+    },
+    {
+      "id": "VO-25",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Aufnahme",
+      "feld": "Untersuchung",
+      "wert": "Erstuntersuchung"
+    },
+    {
+      "id": "VO-26",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Bericht und Einwilligung",
+      "feld": "Therapiebericht angefordert (Muster 13)",
+      "wert": "ja"
+    },
+    {
+      "id": "VO-27",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Bericht und Einwilligung",
+      "feld": "Einwilligung / Vertretung",
+      "wert": "selbst"
+    },
+    {
+      "id": "VO-28",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Bericht und Einwilligung",
+      "feld": "Einwilligung Audio-, Video- und Fotoaufnahmen",
+      "wert": "liegt vor"
+    },
+    {
+      "id": "MV-05",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Verdachtsdiagnose und Abklärung",
+      "feld": "Logopädische Verdachtsdiagnose",
+      "wert": "kongruent mit HMVO"
+    },
+    {
+      "id": "MV-06",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Verdachtsdiagnose und Abklärung",
+      "feld": "Behandlungsfeld",
+      "wert": "Aphasie"
+    },
+    {
+      "id": "MV-32",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Verdachtsdiagnose und Abklärung",
+      "feld": "Zusätzliches Behandlungsfeld aus logopädischer Sicht",
+      "wert": "nein"
+    },
+    {
+      "id": "MV-46",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Krankheitsphase und Risiken",
+      "feld": "Krankheitsphase",
+      "wert": "postakut (< 6 Monate)"
+    },
+    {
+      "id": "MV-15",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Krankheitsphase und Risiken",
+      "feld": "Allgemeine Risikofaktoren",
+      "wert": "keine"
+    },
+    {
+      "id": "MV-22",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Allergien",
+      "feld": "Nahrungsmittelallergien",
+      "wert": "keine bekannt"
+    },
+    {
+      "id": "MV-24",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Allergien",
+      "feld": "Materialallergien",
+      "wert": "keine bekannt"
+    },
+    {
+      "id": "LA-01",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Versorgung",
+      "feld": "Häusliche Versorgung",
+      "wert": "Unterstützung durch Angehörige; ambulanter Pflegedienst"
+    },
+    {
+      "id": "LA-03",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Versorgung",
+      "feld": "Bezugsperson / Kontakt",
+      "wert": "Max Muster (Sohn), +4917012345678"
+    },
+    {
+      "id": "LA-04",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Beruf",
+      "feld": "Berufliche Situation",
+      "wert": "in Rente"
+    },
+    {
+      "id": "LA-06",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Beruf",
+      "feld": "Beruf (aktuell bzw. zuletzt)",
+      "wert": "Lehrerin"
+    },
+    {
+      "id": "LA-07",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Kommunikation",
+      "feld": "Erstsprache Deutsch",
+      "wert": "ja"
+    },
+    {
+      "id": "LA-09",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Rahmenbedingungen",
+      "feld": "Hören",
+      "wert": "Hörgerät"
+    },
+    {
+      "id": "LA-10",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Rahmenbedingungen",
+      "feld": "Sehen",
+      "wert": "Brille"
+    },
+    {
+      "id": "AA-02",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Erkrankung",
+      "feld": "Ursache der Aphasie",
+      "wert": "Schlaganfall – Infarkt"
+    },
+    {
+      "id": "AA-03",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Erkrankung",
+      "feld": "Läsionsseite laut Arztbrief",
+      "wert": "links"
+    },
+    {
+      "id": "AA-05",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Erkrankung",
+      "feld": "Verlauf seit Ereignis",
+      "wert": "besser / rückläufig"
+    },
+    {
+      "id": "AA-07",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Vorbehandlung",
+      "feld": "Dauer bisheriger ambulanter Sprachtherapie (0 = keine)",
+      "wert": "6"
+    },
+    {
+      "id": "AA-08",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Begleitstörungen",
+      "feld": "Begleitstörungen",
+      "wert": "Hemiparese rechts; Vd. a. Begleitsymptomatik Sprechapraxie"
+    },
+    {
+      "id": "AA-09",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Sprachbiografie",
+      "feld": "Händigkeit vor der Erkrankung",
+      "wert": "rechts"
+    },
+    {
+      "id": "AA-10",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Sprachbiografie",
+      "feld": "Höchster Schulabschluss",
+      "wert": "Mittlerer Schulabschluss"
+    },
+    {
+      "id": "AA-12",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Sprachbiografie",
+      "feld": "Lesen im Alltag vor der Erkrankung",
+      "wert": "viel"
+    },
+    {
+      "id": "AA-13",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Sprachbiografie",
+      "feld": "Schreiben im Alltag vor der Erkrankung",
+      "wert": "gelegentlich"
+    },
+    {
+      "id": "AA-14",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Alltag",
+      "feld": "Wichtige Kommunikationssituationen",
+      "wert": "Gespräche in der Familie; Telefonieren; Arzttermine / Behörden"
+    },
+    {
+      "id": "AA-15",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Alltag",
+      "feld": "Hauptgesprächspartner:innen",
+      "wert": "Partner:in; Kinder"
+    },
+    {
+      "id": "AA-16",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Kommunikation aktuell",
+      "feld": "Aktuelle Kommunikationsmittel",
+      "wert": "Sprechen; Gesten / Mimik"
+    },
+    {
+      "id": "AA-17",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Kommunikation aktuell",
+      "feld": "Ja/Nein-Antworten verlässlich (geprüft)",
+      "wert": "verlässlich"
+    },
+    {
+      "id": "AA-18",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Befinden",
+      "feld": "Stimmung / Rückzug",
+      "wert": "unauffällig"
+    },
+    {
+      "id": "AA-19",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Rechtliches",
+      "feld": "Rechtliche Vertretung Gesundheitssorge",
+      "wert": "keine"
+    },
+    {
+      "id": "BI-01",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Durchführung",
+      "feld": "BIAS durchgeführt",
+      "wert": "vollständig"
+    },
+    {
+      "id": "BI-03",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Durchführung",
+      "feld": "Datum",
+      "wert": "2026-11-03"
+    },
+    {
+      "id": "BI-04",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Spontansprache",
+      "feld": "Spontansprache aufgezeichnet",
+      "wert": "ja"
+    },
+    {
+      "id": "BI-05",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Spontansprache",
+      "feld": "Sprachfluss",
+      "wert": "nicht flüssig (stockend, mühsam)"
+    },
+    {
+      "id": "BI-06",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Spontansprache",
+      "feld": "Leitsymptome Spontansprache",
+      "wert": "Wortfindungsstörungen; phonematische Paraphasien; Telegrammstil (Agrammatismus)"
+    },
+    {
+      "id": "BI-07",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Auditives Sprachverständnis – Rohwert",
+      "wert": "12"
+    },
+    {
+      "id": "BI-08",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Auditives Sprachverständnis – T-Wert",
+      "wert": "42"
+    },
+    {
+      "id": "BI-09",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Auditives Sprachverständnis – Prozentrang",
+      "wert": "21"
+    },
+    {
+      "id": "BI-10",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Auditives Sprachverständnis – Einstufung",
+      "wert": "mittel"
+    },
+    {
+      "id": "BI-11",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Lesesinnverständnis – Rohwert",
+      "wert": "12"
+    },
+    {
+      "id": "BI-12",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Lesesinnverständnis – T-Wert",
+      "wert": "42"
+    },
+    {
+      "id": "BI-13",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Lesesinnverständnis – Prozentrang",
+      "wert": "21"
+    },
+    {
+      "id": "BI-14",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Lesesinnverständnis – Einstufung",
+      "wert": "mittel"
+    },
+    {
+      "id": "BI-15",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Benennen / Wortabruf – Rohwert",
+      "wert": "12"
+    },
+    {
+      "id": "BI-16",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Benennen / Wortabruf – T-Wert",
+      "wert": "42"
+    },
+    {
+      "id": "BI-17",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Benennen / Wortabruf – Prozentrang",
+      "wert": "21"
+    },
+    {
+      "id": "BI-18",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Benennen / Wortabruf – Einstufung",
+      "wert": "mittel"
+    },
+    {
+      "id": "BI-19",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Nachsprechen – Rohwert",
+      "wert": "12"
+    },
+    {
+      "id": "BI-20",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Nachsprechen – T-Wert",
+      "wert": "42"
+    },
+    {
+      "id": "BI-21",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Nachsprechen – Prozentrang",
+      "wert": "21"
+    },
+    {
+      "id": "BI-22",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Nachsprechen – Einstufung",
+      "wert": "mittel"
+    },
+    {
+      "id": "BI-23",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Lautes Lesen – Rohwert",
+      "wert": "12"
+    },
+    {
+      "id": "BI-24",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Lautes Lesen – T-Wert",
+      "wert": "42"
+    },
+    {
+      "id": "BI-25",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Lautes Lesen – Prozentrang",
+      "wert": "21"
+    },
+    {
+      "id": "BI-26",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Lautes Lesen – Einstufung",
+      "wert": "mittel"
+    },
+    {
+      "id": "BI-27",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Schreiben – Rohwert",
+      "wert": "12"
+    },
+    {
+      "id": "BI-28",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Schreiben – T-Wert",
+      "wert": "42"
+    },
+    {
+      "id": "BI-29",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Schreiben – Prozentrang",
+      "wert": "21"
+    },
+    {
+      "id": "BI-30",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ergebnis je Untertest",
+      "feld": "Schreiben – Einstufung",
+      "wert": "mittel"
+    },
+    {
+      "id": "BI-31",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Gesamteinordnung",
+      "feld": "Schweregrad gesamt",
+      "wert": "mittel"
+    },
+    {
+      "id": "BI-32",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Gesamteinordnung",
+      "feld": "Leitsyndrom (klinische Einordnung)",
+      "wert": "Broca"
+    },
+    {
+      "id": "BI-33",
+      "abschnitt": "6 BIAS A&R (Reha)",
+      "gruppe": "Ablage",
+      "feld": "Protokollbogen eingescannt und abgelegt",
+      "wert": "ja"
+    },
+    {
+      "id": "AL-01",
+      "abschnitt": "7 Alltagskommunikation und Teilhabe",
+      "gruppe": "Auswahl",
+      "feld": "Verfahren",
+      "wert": "CPIB-10 (Selbsteinschätzung)"
+    },
+    {
+      "id": "AL-02",
+      "abschnitt": "7 Alltagskommunikation und Teilhabe",
+      "gruppe": "CPIB-10",
+      "feld": "CPIB-10 Summenwert",
+      "wert": "17"
+    },
+    {
+      "id": "AL-05",
+      "abschnitt": "7 Alltagskommunikation und Teilhabe",
+      "gruppe": "optional",
+      "feld": "SAQOL-39g Gesamtwert (optional)",
+      "wert": "3.4"
+    },
+    {
+      "id": "AE-01",
+      "abschnitt": "8 Abschluss Erstdiagnostik und Therapieempfehlung",
+      "gruppe": "Diagnostik",
+      "feld": "Status Diagnostik",
+      "wert": "abgeschlossen"
+    },
+    {
+      "id": "AE-02",
+      "abschnitt": "8 Abschluss Erstdiagnostik und Therapieempfehlung",
+      "gruppe": "Diagnostik",
+      "feld": "Hinweise auf kognitive Kommunikationsstörung",
+      "wert": "keine Hinweise"
+    },
+    {
+      "id": "AE-03",
+      "abschnitt": "8 Abschluss Erstdiagnostik und Therapieempfehlung",
+      "gruppe": "Planung",
+      "feld": "Therapieschwerpunkte",
+      "wert": "Wortabruf / Benennen; auditives Verstehen"
+    },
+    {
+      "id": "AE-04",
+      "abschnitt": "8 Abschluss Erstdiagnostik und Therapieempfehlung",
+      "gruppe": "Planung",
+      "feld": "Teilhabebereich des Ziels",
+      "wert": "Telefonieren"
+    },
+    {
+      "id": "AE-05",
+      "abschnitt": "8 Abschluss Erstdiagnostik und Therapieempfehlung",
+      "gruppe": "Planung",
+      "feld": "Teilhabeziel (SMART)",
+      "wert": "ruft selbstständig die Tochter an und vereinbart einen Termin"
+    },
+    {
+      "id": "AE-06",
+      "abschnitt": "8 Abschluss Erstdiagnostik und Therapieempfehlung",
+      "gruppe": "Planung",
+      "feld": "Therapieansätze",
+      "wert": "störungsspezifisch / modellorientiert; PACE; Angehörigenarbeit"
+    },
+    {
+      "id": "AE-07",
+      "abschnitt": "8 Abschluss Erstdiagnostik und Therapieempfehlung",
+      "gruppe": "Planung",
+      "feld": "Frequenz",
+      "wert": "2× pro Woche"
+    },
+    {
+      "id": "AE-08",
+      "abschnitt": "8 Abschluss Erstdiagnostik und Therapieempfehlung",
+      "gruppe": "Planung",
+      "feld": "Dauer je Einheit",
+      "wert": "45 Minuten"
+    },
+    {
+      "id": "AE-09",
+      "abschnitt": "8 Abschluss Erstdiagnostik und Therapieempfehlung",
+      "gruppe": "Planung",
+      "feld": "Eigentraining",
+      "wert": "App / digital"
+    },
+    {
+      "id": "AE-10",
+      "abschnitt": "8 Abschluss Erstdiagnostik und Therapieempfehlung",
+      "gruppe": "Planung",
+      "feld": "Unterstützte Kommunikation",
+      "wert": "kein Bedarf"
+    },
+    {
+      "id": "AE-11",
+      "abschnitt": "8 Abschluss Erstdiagnostik und Therapieempfehlung",
+      "gruppe": "Empfehlungen",
+      "feld": "Weitere Empfehlungen",
+      "wert": "KSU (SOP-Dysphagie-01); Selbsthilfegruppe; weiterführende Diagnostik Sprechapraxie (HWL)"
+    },
+    {
+      "id": "AE-12",
+      "abschnitt": "8 Abschluss Erstdiagnostik und Therapieempfehlung",
+      "gruppe": "Empfehlungen",
+      "feld": "Vermerk ergänzende Diagnostik",
+      "wert": "ggf. ergänzende Diagnostik: HWL (Hierarchische Wortlisten)"
+    }
+  ],
+  "screening": [
+    {
+      "sc_modul": "APH",
+      "sc_instrument": "APH-S1",
+      "sc_datum": "2026-11-02",
+      "sc_score": "mittel",
+      "sc_einordnung": "AUFF",
+      "sc_konsequenz": [
+        "TH"
+      ]
+    },
+    {
+      "sc_modul": "APH",
+      "sc_instrument": "APH-S2",
+      "sc_datum": "2026-11-02",
+      "sc_score": "17",
+      "sc_einordnung": "AUFF",
+      "sc_konsequenz": [
+        "TH"
+      ]
+    },
+    {
+      "sc_modul": "APH",
+      "sc_instrument": "APH-S4",
+      "sc_datum": "2026-11-02",
+      "sc_score": "3.4",
+      "sc_einordnung": "AUFF",
+      "sc_konsequenz": [
+        "TH"
+      ]
+    }
+  ]
+}

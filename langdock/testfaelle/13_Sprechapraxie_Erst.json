@@ -1,0 +1,785 @@
+{
+  "schema": "HYO_Anamnese_Datenfelder.xlsx",
+  "payload_version": 1,
+  "gesendet_am": "2026-11-02T12:42:27.310Z",
+  "tinana_patient_id": "P-TEST-0013",
+  "therapeut": "MH",
+  "alter_monate": 943,
+  "diagnosegruppe": "SP6",
+  "stammdaten_enthalten": false,
+  "felder": {
+    "vo_icd10": "I63.5",
+    "vo_diagnosegruppe": "SP6",
+    "vo_leitsymptomatik": "a",
+    "vo_menge": "10",
+    "vo_frequenz": "2x wöchentlich",
+    "vo_hausbesuch": "nein",
+    "vo_terminart": "ERST",
+    "vo_bericht_angefordert": "ja",
+    "vo_vertretung": "SELBST",
+    "vo_einw_aufnahme": "JA",
+    "mv_vd_abgleich": "KONGR",
+    "mv_vd": "SPAX",
+    "mv_zus_dg_vorhanden": "nein",
+    "mv_phase": "POSTAK",
+    "mv_risiko": [
+      "KEINE"
+    ],
+    "mv_allergie_nahrung": [
+      "KEINE"
+    ],
+    "mv_allergie_material": [
+      "KEINE"
+    ],
+    "la_versorgung": [
+      "ANGEH",
+      "PD"
+    ],
+    "la_bezugsperson": "Max Muster (Sohn), +4917012345678",
+    "la_beruf_status": "RENTE",
+    "la_beruf": "Lehrerin",
+    "la_erstsprache_de": "ja",
+    "la_hoeren": "HG",
+    "la_sehen": "BRILLE",
+    "aa_aetiologie": "ISCH",
+    "aa_seite": "LI",
+    "aa_verlauf": "BESSER",
+    "aa_vortherapie_monate": "6",
+    "aa_begleit": [
+      "HEMI_RE",
+      "SPAX"
+    ],
+    "aa_haendigkeit": "RE",
+    "aa_bildung": "MSA",
+    "aa_lesen_prae": "VIEL",
+    "aa_schreiben_prae": "GELEG",
+    "aa_situationen": [
+      "FAM",
+      "TEL",
+      "ARZT"
+    ],
+    "aa_partner": [
+      "PARTN",
+      "KIND"
+    ],
+    "aa_mittel": [
+      "SPR",
+      "GEST"
+    ],
+    "aa_janein": "JA",
+    "aa_stimmung": "UNAUF",
+    "aa_vertretung": "KEINE",
+    "hw_status": "VOLL",
+    "hw_datum": "2026-11-05",
+    "hw_aufnahme": "ja",
+    "hw_maske": "ja",
+    "hw_n": "30",
+    "hw_pt": "18",
+    "hw_pm": "22",
+    "hw_rf": "20",
+    "hw_korrekt": "12",
+    "hw_segm": "16",
+    "hw_pt_proz": 60,
+    "hw_pm_proz": 73,
+    "hw_rf_proz": 67,
+    "hw_korrekt_proz": 40,
+    "hw_segm_proz": 53,
+    "hw_n_12": "14",
+    "hw_n_34": "16",
+    "hw_k_12": "9",
+    "hw_k_34": "3",
+    "hw_n_einf": "15",
+    "hw_n_kompl": "15",
+    "hw_k_einf": "8",
+    "hw_k_kompl": "4",
+    "hw_konstanz": 0.6,
+    "hw_konsistenz": 0.75,
+    "hw_q_anstr": "2",
+    "hw_q_such": "2",
+    "hw_q_silb": "2",
+    "hw_q_akzent": "2",
+    "hw_einfluss": [
+      "LAENGE",
+      "KOMPLEX"
+    ],
+    "hw_schwere": "MITTEL",
+    "hw_protokoll": "ja",
+    "sb_anteile": [
+      "SPAX",
+      "APH"
+    ],
+    "sb_sicher": "SICHER",
+    "sb_merkmale": [
+      "VARI",
+      "AUTO"
+    ],
+    "sb_ddk": "SEQ",
+    "sb_bfax": "KEINE",
+    "sb_vermittl_begleit": [
+      "KEINE"
+    ],
+    "sb_cpib": "18",
+    "se_status": "ABGESCHL",
+    "se_ziel": "nennt bei der Anmeldung in der Arztpraxis Name und Geburtsdatum verständlich",
+    "se_ansatz": [
+      "AKK",
+      "RHYTH"
+    ],
+    "se_aufgabe": [
+      "NACHSPR",
+      "DIALOG"
+    ],
+    "se_vermittl": [
+      "VIS"
+    ],
+    "se_frequenz": "W2",
+    "se_dauer": "45",
+    "se_eigentraining": "APP",
+    "se_uk": [
+      "KEINE"
+    ],
+    "se_weitere": [
+      "ARZT"
+    ]
+  },
+  "lesbar": [
+    {
+      "id": "VO-14",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Diagnose (ICD-10-GM)",
+      "wert": "I63.5"
+    },
+    {
+      "id": "VO-15",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Diagnosegruppe",
+      "wert": "Störungen der Sprechmotorik (Dysarthrie, Sprechapraxie)"
+    },
+    {
+      "id": "VO-16",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Leitsymptomatik",
+      "wert": "a"
+    },
+    {
+      "id": "VO-19",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Verordnungsmenge",
+      "wert": "10"
+    },
+    {
+      "id": "VO-20",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Therapiefrequenz",
+      "wert": "2x wöchentlich"
+    },
+    {
+      "id": "VO-21",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Hausbesuch",
+      "wert": "nein"
+    },
+    {
+      "id": "VO-25",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Aufnahme",
+      "feld": "Untersuchung",
+      "wert": "Erstuntersuchung"
+    },
+    {
+      "id": "VO-26",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Bericht und Einwilligung",
+      "feld": "Therapiebericht angefordert (Muster 13)",
+      "wert": "ja"
+    },
+    {
+      "id": "VO-27",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Bericht und Einwilligung",
+      "feld": "Einwilligung / Vertretung",
+      "wert": "selbst"
+    },
+    {
+      "id": "VO-28",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Bericht und Einwilligung",
+      "feld": "Einwilligung Audio-, Video- und Fotoaufnahmen",
+      "wert": "liegt vor"
+    },
+    {
+      "id": "MV-05",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Verdachtsdiagnose und Abklärung",
+      "feld": "Logopädische Verdachtsdiagnose",
+      "wert": "kongruent mit HMVO"
+    },
+    {
+      "id": "MV-06",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Verdachtsdiagnose und Abklärung",
+      "feld": "Behandlungsfeld",
+      "wert": "Sprechapraxie"
+    },
+    {
+      "id": "MV-32",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Verdachtsdiagnose und Abklärung",
+      "feld": "Zusätzliches Behandlungsfeld aus logopädischer Sicht",
+      "wert": "nein"
+    },
+    {
+      "id": "MV-46",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Krankheitsphase und Risiken",
+      "feld": "Krankheitsphase",
+      "wert": "postakut (< 6 Monate)"
+    },
+    {
+      "id": "MV-15",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Krankheitsphase und Risiken",
+      "feld": "Allgemeine Risikofaktoren",
+      "wert": "keine"
+    },
+    {
+      "id": "MV-22",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Allergien",
+      "feld": "Nahrungsmittelallergien",
+      "wert": "keine bekannt"
+    },
+    {
+      "id": "MV-24",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Allergien",
+      "feld": "Materialallergien",
+      "wert": "keine bekannt"
+    },
+    {
+      "id": "LA-01",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Versorgung",
+      "feld": "Häusliche Versorgung",
+      "wert": "Unterstützung durch Angehörige; ambulanter Pflegedienst"
+    },
+    {
+      "id": "LA-03",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Versorgung",
+      "feld": "Bezugsperson / Kontakt",
+      "wert": "Max Muster (Sohn), +4917012345678"
+    },
+    {
+      "id": "LA-04",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Beruf",
+      "feld": "Berufliche Situation",
+      "wert": "in Rente"
+    },
+    {
+      "id": "LA-06",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Beruf",
+      "feld": "Beruf (aktuell bzw. zuletzt)",
+      "wert": "Lehrerin"
+    },
+    {
+      "id": "LA-07",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Kommunikation",
+      "feld": "Erstsprache Deutsch",
+      "wert": "ja"
+    },
+    {
+      "id": "LA-09",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Rahmenbedingungen",
+      "feld": "Hören",
+      "wert": "Hörgerät"
+    },
+    {
+      "id": "LA-10",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Rahmenbedingungen",
+      "feld": "Sehen",
+      "wert": "Brille"
+    },
+    {
+      "id": "AA-02",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Erkrankung",
+      "feld": "Ursache der Aphasie",
+      "wert": "Schlaganfall – Infarkt"
+    },
+    {
+      "id": "AA-03",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Erkrankung",
+      "feld": "Läsionsseite laut Arztbrief",
+      "wert": "links"
+    },
+    {
+      "id": "AA-05",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Erkrankung",
+      "feld": "Verlauf seit Ereignis",
+      "wert": "besser / rückläufig"
+    },
+    {
+      "id": "AA-07",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Vorbehandlung",
+      "feld": "Dauer bisheriger ambulanter Sprachtherapie (0 = keine)",
+      "wert": "6"
+    },
+    {
+      "id": "AA-08",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Begleitstörungen",
+      "feld": "Begleitstörungen",
+      "wert": "Hemiparese rechts; Vd. a. Begleitsymptomatik Sprechapraxie"
+    },
+    {
+      "id": "AA-09",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Sprachbiografie",
+      "feld": "Händigkeit vor der Erkrankung",
+      "wert": "rechts"
+    },
+    {
+      "id": "AA-10",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Sprachbiografie",
+      "feld": "Höchster Schulabschluss",
+      "wert": "Mittlerer Schulabschluss"
+    },
+    {
+      "id": "AA-12",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Sprachbiografie",
+      "feld": "Lesen im Alltag vor der Erkrankung",
+      "wert": "viel"
+    },
+    {
+      "id": "AA-13",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Sprachbiografie",
+      "feld": "Schreiben im Alltag vor der Erkrankung",
+      "wert": "gelegentlich"
+    },
+    {
+      "id": "AA-14",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Alltag",
+      "feld": "Wichtige Kommunikationssituationen",
+      "wert": "Gespräche in der Familie; Telefonieren; Arzttermine / Behörden"
+    },
+    {
+      "id": "AA-15",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Alltag",
+      "feld": "Hauptgesprächspartner:innen",
+      "wert": "Partner:in; Kinder"
+    },
+    {
+      "id": "AA-16",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Kommunikation aktuell",
+      "feld": "Aktuelle Kommunikationsmittel",
+      "wert": "Sprechen; Gesten / Mimik"
+    },
+    {
+      "id": "AA-17",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Kommunikation aktuell",
+      "feld": "Ja/Nein-Antworten verlässlich (geprüft)",
+      "wert": "verlässlich"
+    },
+    {
+      "id": "AA-18",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Befinden",
+      "feld": "Stimmung / Rückzug",
+      "wert": "unauffällig"
+    },
+    {
+      "id": "AA-19",
+      "abschnitt": "5 Aphasie-Anamnese",
+      "gruppe": "Rechtliches",
+      "feld": "Rechtliche Vertretung Gesundheitssorge",
+      "wert": "keine"
+    },
+    {
+      "id": "HW-01",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Durchführung",
+      "feld": "HWL durchgeführt",
+      "wert": "vollständig"
+    },
+    {
+      "id": "HW-03",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Durchführung",
+      "feld": "Datum",
+      "wert": "2026-11-05"
+    },
+    {
+      "id": "HW-04",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Durchführung",
+      "feld": "Auswertung anhand Aufnahme",
+      "wert": "ja"
+    },
+    {
+      "id": "HW-05",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Durchführung",
+      "feld": "Auswertungsmaske (HWL kompakt) ausgefüllt und abgelegt",
+      "wert": "ja"
+    },
+    {
+      "id": "HW-06",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Korrekte Wörter",
+      "feld": "Auswertbare Items (n)",
+      "wert": "30"
+    },
+    {
+      "id": "HW-07",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Korrekte Wörter pro Fehlertyp",
+      "feld": "PT – phonetisch korrekt",
+      "wert": "18"
+    },
+    {
+      "id": "HW-08",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Korrekte Wörter pro Fehlertyp",
+      "feld": "PM – phonematisch korrekt",
+      "wert": "22"
+    },
+    {
+      "id": "HW-09",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Korrekte Wörter pro Fehlertyp",
+      "feld": "RF – Redefluss ungestört",
+      "wert": "20"
+    },
+    {
+      "id": "HW-10",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Korrekte Wörter",
+      "feld": "Korrekt gesamt (PT, PM und RF unauffällig)",
+      "wert": "12"
+    },
+    {
+      "id": "HW-11",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Korrekte Wörter",
+      "feld": "Segmental korrekt (PT und PM unauffällig)",
+      "wert": "16"
+    },
+    {
+      "id": "HW-12",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Prozentwerte",
+      "feld": "PT in % von n",
+      "wert": "60"
+    },
+    {
+      "id": "HW-13",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Prozentwerte",
+      "feld": "PM in % von n",
+      "wert": "73"
+    },
+    {
+      "id": "HW-14",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Prozentwerte",
+      "feld": "RF in % von n",
+      "wert": "67"
+    },
+    {
+      "id": "HW-15",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Prozentwerte",
+      "feld": "korrekt gesamt in % von n",
+      "wert": "40"
+    },
+    {
+      "id": "HW-16",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Prozentwerte",
+      "feld": "segmental korrekt in % von n",
+      "wert": "53"
+    },
+    {
+      "id": "HW-17",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Längeneffekt",
+      "feld": "Auswertbar 1–2 Silben",
+      "wert": "14"
+    },
+    {
+      "id": "HW-18",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Längeneffekt",
+      "feld": "Auswertbar 3–4 Silben",
+      "wert": "16"
+    },
+    {
+      "id": "HW-19",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Längeneffekt",
+      "feld": "Korrekt 1–2 Silben",
+      "wert": "9"
+    },
+    {
+      "id": "HW-20",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Längeneffekt",
+      "feld": "Korrekt 3–4 Silben",
+      "wert": "3"
+    },
+    {
+      "id": "HW-21",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Komplexitätseffekt",
+      "feld": "Auswertbar einfach",
+      "wert": "15"
+    },
+    {
+      "id": "HW-22",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Komplexitätseffekt",
+      "feld": "Auswertbar komplex (Konsonantenhäufungen)",
+      "wert": "15"
+    },
+    {
+      "id": "HW-23",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Komplexitätseffekt",
+      "feld": "Korrekt einfach",
+      "wert": "8"
+    },
+    {
+      "id": "HW-24",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Komplexitätseffekt",
+      "feld": "Korrekt komplex",
+      "wert": "4"
+    },
+    {
+      "id": "HW-25",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Konstanz und Konsistenz",
+      "feld": "Konstanz (Wiederholungswörter)",
+      "wert": "0.6"
+    },
+    {
+      "id": "HW-26",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Konstanz und Konsistenz",
+      "feld": "Konsistenz (Wiederholungswörter)",
+      "wert": "0.75"
+    },
+    {
+      "id": "HW-27",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Qualitativ",
+      "feld": "Sprechanstrengung",
+      "wert": "2"
+    },
+    {
+      "id": "HW-28",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Qualitativ",
+      "feld": "Suchverhalten",
+      "wert": "2"
+    },
+    {
+      "id": "HW-29",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Qualitativ",
+      "feld": "Silbisches Sprechen",
+      "wert": "2"
+    },
+    {
+      "id": "HW-30",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Qualitativ",
+      "feld": "Veränderter Wortakzent",
+      "wert": "2"
+    },
+    {
+      "id": "HW-31",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Auswertung",
+      "feld": "Einflussfaktoren auf das Fehlermuster",
+      "wert": "Längeneffekt (3–4 Silben schlechter als 1–2); Komplexitätseffekt (Konsonantenhäufungen schlechter)"
+    },
+    {
+      "id": "HW-32",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Auswertung",
+      "feld": "Schweregrad Sprechapraxie",
+      "wert": "mittel"
+    },
+    {
+      "id": "HW-33",
+      "abschnitt": "6 HWL kompakt – Hierarchische Wortlisten",
+      "gruppe": "Ablage",
+      "feld": "Protokollbogen eingescannt und abgelegt",
+      "wert": "ja"
+    },
+    {
+      "id": "SB-01",
+      "abschnitt": "7 Ergänzender Befund",
+      "gruppe": "Abgrenzung",
+      "feld": "Störungsanteile",
+      "wert": "Sprechapraxie; Aphasie"
+    },
+    {
+      "id": "SB-02",
+      "abschnitt": "7 Ergänzender Befund",
+      "gruppe": "Abgrenzung",
+      "feld": "Abgrenzung",
+      "wert": "eindeutig"
+    },
+    {
+      "id": "SB-03",
+      "abschnitt": "7 Ergänzender Befund",
+      "gruppe": "Abgrenzung",
+      "feld": "Weitere Merkmale (Spontansprache / Nachsprechen)",
+      "wert": "wechselnde Fehler bei Wiederholung; automatisierte Reihen / Floskeln besser"
+    },
+    {
+      "id": "SB-04",
+      "abschnitt": "7 Ergänzender Befund",
+      "gruppe": "Ergänzend",
+      "feld": "Diadochokinese",
+      "wert": "Silbenfolgen (pa-ta-ka) deutlich schlechter als Einzelsilbe"
+    },
+    {
+      "id": "SB-05",
+      "abschnitt": "7 Ergänzender Befund",
+      "gruppe": "Ergänzend",
+      "feld": "Bukkofaziale Apraxie",
+      "wert": "keine Hinweise"
+    },
+    {
+      "id": "SB-06",
+      "abschnitt": "7 Ergänzender Befund",
+      "gruppe": "Ergänzend",
+      "feld": "Begleitstörungen relevant für Vermittlungstechniken",
+      "wert": "keine"
+    },
+    {
+      "id": "SB-07",
+      "abschnitt": "7 Ergänzender Befund",
+      "gruppe": "Teilhabe",
+      "feld": "CPIB-10 Summenwert",
+      "wert": "18"
+    },
+    {
+      "id": "SE-01",
+      "abschnitt": "8 Abschluss Erstdiagnostik und Therapieempfehlung",
+      "gruppe": "Diagnostik",
+      "feld": "Status Diagnostik",
+      "wert": "abgeschlossen"
+    },
+    {
+      "id": "SE-03",
+      "abschnitt": "8 Abschluss Erstdiagnostik und Therapieempfehlung",
+      "gruppe": "Planung",
+      "feld": "Teilhabeziel (SMART)",
+      "wert": "nennt bei der Anmeldung in der Arztpraxis Name und Geburtsdatum verständlich"
+    },
+    {
+      "id": "SE-04",
+      "abschnitt": "8 Abschluss Erstdiagnostik und Therapieempfehlung",
+      "gruppe": "Planung",
+      "feld": "Therapieansätze",
+      "wert": "artikulatorisch-kinematisch (integrale Stimulation, SPT / Minimalpaare); rhythmisch (Metronom, Metrical Pacing Therapy)"
+    },
+    {
+      "id": "SE-05",
+      "abschnitt": "8 Abschluss Erstdiagnostik und Therapieempfehlung",
+      "gruppe": "Planung",
+      "feld": "Aufgabenstellung",
+      "wert": "Nachsprechen; kurze Dialoge"
+    },
+    {
+      "id": "SE-06",
+      "abschnitt": "8 Abschluss Erstdiagnostik und Therapieempfehlung",
+      "gruppe": "Planung",
+      "feld": "Vermittlungstechniken",
+      "wert": "visuell (Spiegel, Mundbild)"
+    },
+    {
+      "id": "SE-07",
+      "abschnitt": "8 Abschluss Erstdiagnostik und Therapieempfehlung",
+      "gruppe": "Planung",
+      "feld": "Frequenz",
+      "wert": "2× pro Woche"
+    },
+    {
+      "id": "SE-08",
+      "abschnitt": "8 Abschluss Erstdiagnostik und Therapieempfehlung",
+      "gruppe": "Planung",
+      "feld": "Dauer je Einheit",
+      "wert": "45 Minuten"
+    },
+    {
+      "id": "SE-09",
+      "abschnitt": "8 Abschluss Erstdiagnostik und Therapieempfehlung",
+      "gruppe": "Planung",
+      "feld": "Eigentraining",
+      "wert": "App / digital"
+    },
+    {
+      "id": "SE-10",
+      "abschnitt": "8 Abschluss Erstdiagnostik und Therapieempfehlung",
+      "gruppe": "Planung",
+      "feld": "Unterstützte Kommunikation",
+      "wert": "kein Bedarf"
+    },
+    {
+      "id": "SE-11",
+      "abschnitt": "8 Abschluss Erstdiagnostik und Therapieempfehlung",
+      "gruppe": "Empfehlungen",
+      "feld": "Weitere Empfehlungen",
+      "wert": "ärztliche Abklärung"
+    }
+  ],
+  "screening": [
+    {
+      "sc_modul": "SPAX",
+      "sc_instrument": "SPAX-S1",
+      "sc_datum": "2026-11-02",
+      "sc_score": "korrekt 40 % · segmental 53 % (n 30)",
+      "sc_einordnung": "AUFF",
+      "sc_konsequenz": [
+        "TH"
+      ]
+    },
+    {
+      "sc_modul": "SPAX",
+      "sc_instrument": "SPAX-S2",
+      "sc_datum": "2026-11-02",
+      "sc_score": "18",
+      "sc_einordnung": "AUFF",
+      "sc_konsequenz": [
+        "TH"
+      ]
+    }
+  ]
+}

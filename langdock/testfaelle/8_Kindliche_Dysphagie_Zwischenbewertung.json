@@ -1,0 +1,782 @@
+{
+  "schema": "HYO_Anamnese_Datenfelder.xlsx",
+  "payload_version": 1,
+  "gesendet_am": "2026-11-02T09:56:54.956Z",
+  "tinana_patient_id": "P-TEST-0008",
+  "therapeut": "MH",
+  "alter_monate": 12,
+  "diagnosegruppe": "SC",
+  "stammdaten_enthalten": false,
+  "felder": {
+    "vo_icd10": "R13.9",
+    "vo_diagnosegruppe": "SC",
+    "vo_leitsymptomatik": "a",
+    "vo_menge": "10",
+    "vo_frequenz": "1x wöchentlich",
+    "vo_hausbesuch": "nein",
+    "vo_terminart": "VERLAUF",
+    "vo_bericht_angefordert": "ja",
+    "vo_vertretung": "GEM_SCHR",
+    "vo_einw_aufnahme": "JA",
+    "mv_vd_abgleich": "KONGR",
+    "mv_vd": "KIDYS",
+    "mv_zus_dg_vorhanden": "nein",
+    "mv_phase": "ANGEB",
+    "mv_risiko": [
+      "KEINE"
+    ],
+    "mv_allergie_nahrung": [
+      "KEINE"
+    ],
+    "mv_allergie_material": [
+      "KEINE"
+    ],
+    "la_versorgung": [
+      "ANGEH"
+    ],
+    "la_bezugsperson": "Anna Muster (Mutter), +4917012345678",
+    "la_beruf_status": "KIND",
+    "la_erstsprache_de": "ja",
+    "la_hoeren": "UNAUF",
+    "la_sehen": "UNAUF",
+    "kd_ssw": "34",
+    "kd_korr_alter": 11,
+    "kd_kuehlung": "NEIN",
+    "kd_grunderkr": [
+      "FRUEH",
+      "REFLUX"
+    ],
+    "kd_kinderarzt": "JA",
+    "kd_methode": [
+      "FLASCHE",
+      "LOEFFEL"
+    ],
+    "kd_konsistenz": [
+      "0",
+      "4"
+    ],
+    "kd_mahlzeitdauer": "D30_45",
+    "kd_abstand": "nein",
+    "kd_dauer_problem": "M1_3",
+    "kd_symptome": [
+      "HUSTEN",
+      "VERWEIG"
+    ],
+    "kd_redflags": [
+      "KEINE"
+    ],
+    "kd_gedeihen": "STABIL",
+    "kd_gewicht_datum": "2026-10-15",
+    "kd_vorbeh": [
+      "PHYSIO",
+      "SPZ"
+    ],
+    "kd_instr": "KEINE",
+    "kd_belastung": "MITTEL",
+    "kk_koebes": "JA",
+    "kk_bogen": "ja",
+    "kb_beob_durchf": "JA",
+    "kb_wachheit": "WACH",
+    "kb_tonus": [
+      "HYPO"
+    ],
+    "kb_atmung": [
+      "UNAUFF"
+    ],
+    "kb_beruehrung": "UEBER",
+    "kb_anatomie": [
+      "KEINE"
+    ],
+    "kb_oralmot": [
+      "LIPPEN",
+      "DROOL"
+    ],
+    "kb_reflexe": "ALTERSG",
+    "kb_nns": "UNAUFF",
+    "kb_ssa": "KOORD",
+    "kb_fertigk": [
+      "KAUEN",
+      "BECHER"
+    ],
+    "kb_aspzeichen": [
+      "KEINE"
+    ],
+    "kb_stress": [
+      "KEINE"
+    ],
+    "kb_pfois": "4",
+    "kb_motorik": "SITZ_FREI",
+    "kb_fuetter_entw": "VERZ3",
+    "kb_einordnung": "BEIDES",
+    "kb_pfd_bereiche": [
+      "FERTIG",
+      "PSYCHO"
+    ],
+    "kb_sicherheit": "EINGESCHR",
+    "kb_instr_empf": "NEIN",
+    "kb_kost_empf": [
+      "0",
+      "4"
+    ],
+    "kb_weitere_empf": [
+      "POSITION",
+      "ERNBER"
+    ],
+    "ke_status": "ABGESCHL",
+    "ke_indikation": "JA",
+    "ke_schwerpunkte": [
+      "POSITION",
+      "FERTIG"
+    ],
+    "ke_situation": "FAMILIE",
+    "ke_ziel_smart": "Bis 15.01.2027 isst L. bei der Familienmahlzeit 3 Löffel weiche Stückchen (IDDSI 6) ohne Würgen, Mahlzeit ≤ 30 Min.",
+    "ke_gas_ausg": "M1",
+    "ke_freq": "W1",
+    "ke_heimanleitung": [
+      "SCHRIFT",
+      "VIDEO"
+    ],
+    "ke_kinderarzt_gew": "ja",
+    "ke_bericht": "VOLL",
+    "kz_datum": "2027-01-15",
+    "kz_gas": "P0",
+    "kz_pfois": "5",
+    "kz_gedeihen": "STABIL",
+    "kz_mahlzeitdauer": "D15_30",
+    "kz_konsistenz": [
+      "0",
+      "4",
+      "6"
+    ],
+    "kz_belastung": "GERING",
+    "kz_warnzeichen": [
+      "KEINE"
+    ],
+    "kz_fortschritt": "JA",
+    "kz_entsch": "FOLGE",
+    "kz_ziel_neu": "ja"
+  },
+  "lesbar": [
+    {
+      "id": "VO-14",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Diagnose (ICD-10-GM)",
+      "wert": "R13.9"
+    },
+    {
+      "id": "VO-15",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Diagnosegruppe",
+      "wert": "Krankhafte Störungen des Schluckakts"
+    },
+    {
+      "id": "VO-16",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Leitsymptomatik",
+      "wert": "a"
+    },
+    {
+      "id": "VO-19",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Verordnungsmenge",
+      "wert": "10"
+    },
+    {
+      "id": "VO-20",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Therapiefrequenz",
+      "wert": "1x wöchentlich"
+    },
+    {
+      "id": "VO-21",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Verordnung",
+      "feld": "Hausbesuch",
+      "wert": "nein"
+    },
+    {
+      "id": "VO-25",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Aufnahme",
+      "feld": "Terminart",
+      "wert": "Zwischenbewertung (Ende der Verordnung)"
+    },
+    {
+      "id": "VO-26",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Bericht und Einwilligung",
+      "feld": "Therapiebericht angefordert (Muster 13)",
+      "wert": "ja"
+    },
+    {
+      "id": "VO-27",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Bericht und Einwilligung",
+      "feld": "Einwilligung / Vertretung",
+      "wert": "Sorgeberechtigte – gemeinsames Sorgerecht, Einwilligung beider liegt vor"
+    },
+    {
+      "id": "VO-28",
+      "abschnitt": "1 Verordnungsdaten",
+      "gruppe": "Bericht und Einwilligung",
+      "feld": "Einwilligung Audio-, Video- und Fotoaufnahmen",
+      "wert": "liegt vor"
+    },
+    {
+      "id": "MV-05",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Verdachtsdiagnose und Abklärung",
+      "feld": "Logopädische Verdachtsdiagnose",
+      "wert": "kongruent mit HMVO"
+    },
+    {
+      "id": "MV-06",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Verdachtsdiagnose und Abklärung",
+      "feld": "Behandlungsfeld",
+      "wert": "Kindliche Dysphagie / Fütterstörungen"
+    },
+    {
+      "id": "MV-32",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Verdachtsdiagnose und Abklärung",
+      "feld": "Zusätzliches Behandlungsfeld aus logopädischer Sicht",
+      "wert": "nein"
+    },
+    {
+      "id": "MV-46",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Krankheitsphase und Risiken",
+      "feld": "Krankheitsphase",
+      "wert": "angeboren / entwicklungsbedingt"
+    },
+    {
+      "id": "MV-15",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Krankheitsphase und Risiken",
+      "feld": "Allgemeine Risikofaktoren",
+      "wert": "keine"
+    },
+    {
+      "id": "MV-22",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Allergien",
+      "feld": "Nahrungsmittelallergien",
+      "wert": "keine bekannt"
+    },
+    {
+      "id": "MV-24",
+      "abschnitt": "2 Medizinische Vorgeschichte",
+      "gruppe": "Allergien",
+      "feld": "Materialallergien",
+      "wert": "keine bekannt"
+    },
+    {
+      "id": "LA-01",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Versorgung",
+      "feld": "Häusliche Versorgung",
+      "wert": "Unterstützung durch Angehörige"
+    },
+    {
+      "id": "LA-03",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Versorgung",
+      "feld": "Bezugsperson / Kontakt",
+      "wert": "Anna Muster (Mutter), +4917012345678"
+    },
+    {
+      "id": "LA-04",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Beruf",
+      "feld": "Berufliche Situation",
+      "wert": "Kita/Schule"
+    },
+    {
+      "id": "LA-07",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Kommunikation",
+      "feld": "Erstsprache Deutsch",
+      "wert": "ja"
+    },
+    {
+      "id": "LA-09",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Rahmenbedingungen",
+      "feld": "Hören",
+      "wert": "unauffällig"
+    },
+    {
+      "id": "LA-10",
+      "abschnitt": "3 Lebenssituation & Alltag",
+      "gruppe": "Rahmenbedingungen",
+      "feld": "Sehen",
+      "wert": "unauffällig"
+    },
+    {
+      "id": "KA-05",
+      "abschnitt": "5 Anamnese kindliche Dysphagie",
+      "gruppe": "Geburt",
+      "feld": "Schwangerschaftswoche bei Geburt",
+      "wert": "34"
+    },
+    {
+      "id": "KA-06",
+      "abschnitt": "5 Anamnese kindliche Dysphagie",
+      "gruppe": "Geburt",
+      "feld": "Korrigiertes Alter (Monate)",
+      "wert": "11"
+    },
+    {
+      "id": "KA-23",
+      "abschnitt": "5 Anamnese kindliche Dysphagie",
+      "gruppe": "Geburt",
+      "feld": "Lag das Kind nach der Geburt auf einer Kältematte (therapeutische Hypothermie)?",
+      "wert": "nein"
+    },
+    {
+      "id": "KA-07",
+      "abschnitt": "5 Anamnese kindliche Dysphagie",
+      "gruppe": "Erkrankung",
+      "feld": "Grunderkrankung / Risikofaktoren",
+      "wert": "Frühgeburt; Reflux / gastrointestinale Erkrankung"
+    },
+    {
+      "id": "KA-08",
+      "abschnitt": "5 Anamnese kindliche Dysphagie",
+      "gruppe": "Erkrankung",
+      "feld": "Kinderärztliche Abklärung liegt vor",
+      "wert": "ja"
+    },
+    {
+      "id": "KA-10",
+      "abschnitt": "5 Anamnese kindliche Dysphagie",
+      "gruppe": "Ernährung",
+      "feld": "Aktuelle Ernährung – Methode",
+      "wert": "Flasche; Löffel (gefüttert)"
+    },
+    {
+      "id": "KA-12",
+      "abschnitt": "5 Anamnese kindliche Dysphagie",
+      "gruppe": "Ernährung",
+      "feld": "Aktuell gegessene / getrunkene Konsistenzen (IDDSI)",
+      "wert": "0 – dünnflüssig; 4 – püriert / stark angedickt"
+    },
+    {
+      "id": "KA-13",
+      "abschnitt": "5 Anamnese kindliche Dysphagie",
+      "gruppe": "Mahlzeit",
+      "feld": "Typische Mahlzeitdauer",
+      "wert": "30–45 Min."
+    },
+    {
+      "id": "KA-14",
+      "abschnitt": "5 Anamnese kindliche Dysphagie",
+      "gruppe": "Mahlzeit",
+      "feld": "Abstand zwischen Mahlzeiten häufig < 2 Stunden",
+      "wert": "nein"
+    },
+    {
+      "id": "KA-15",
+      "abschnitt": "5 Anamnese kindliche Dysphagie",
+      "gruppe": "Mahlzeit",
+      "feld": "Fütter-/Schluckprobleme bestehen seit",
+      "wert": "1–3 Monate"
+    },
+    {
+      "id": "KA-16",
+      "abschnitt": "5 Anamnese kindliche Dysphagie",
+      "gruppe": "Mahlzeit",
+      "feld": "Beobachtungen der Bezugsperson beim Essen/Trinken",
+      "wert": "Husten; Verweigerung / Wegdrehen"
+    },
+    {
+      "id": "KA-17",
+      "abschnitt": "5 Anamnese kindliche Dysphagie",
+      "gruppe": "Sicherheit",
+      "feld": "Red Flags (anamnestisch)",
+      "wert": "keine"
+    },
+    {
+      "id": "KA-18",
+      "abschnitt": "5 Anamnese kindliche Dysphagie",
+      "gruppe": "Gedeihen",
+      "feld": "Gedeihen laut Kinderärzt:in",
+      "wert": "stabil / perzentilenparallel"
+    },
+    {
+      "id": "KA-19",
+      "abschnitt": "5 Anamnese kindliche Dysphagie",
+      "gruppe": "Gedeihen",
+      "feld": "Datum der letzten kinderärztlichen Gewichtskontrolle",
+      "wert": "2026-10-15"
+    },
+    {
+      "id": "KA-20",
+      "abschnitt": "5 Anamnese kindliche Dysphagie",
+      "gruppe": "Vorbehandlung",
+      "feld": "Weitere Therapie / Förderung (außer Logopädie)",
+      "wert": "Physiotherapie; SPZ / Frühförderung"
+    },
+    {
+      "id": "KA-21",
+      "abschnitt": "5 Anamnese kindliche Dysphagie",
+      "gruppe": "Vorbehandlung",
+      "feld": "Instrumentelle Schluckdiagnostik bisher",
+      "wert": "keine"
+    },
+    {
+      "id": "KA-22",
+      "abschnitt": "5 Anamnese kindliche Dysphagie",
+      "gruppe": "Psychosozial",
+      "feld": "Belastung der Familie durch die Mahlzeiten",
+      "wert": "mittel"
+    },
+    {
+      "id": "KK-01",
+      "abschnitt": "6 Befund",
+      "gruppe": "Kö.Be.S. Kids",
+      "feld": "Kö.Be.S. Kids durchgeführt",
+      "wert": "ja"
+    },
+    {
+      "id": "KK-02",
+      "abschnitt": "6 Befund",
+      "gruppe": "Kö.Be.S. Kids",
+      "feld": "Kö.Be.S.-Kids-Bogen abgelegt",
+      "wert": "ja"
+    },
+    {
+      "id": "KB-01",
+      "abschnitt": "6 Befund",
+      "gruppe": "Rahmen",
+      "feld": "Mahlzeitbeobachtung durchgeführt",
+      "wert": "ja"
+    },
+    {
+      "id": "KB-02",
+      "abschnitt": "6 Befund",
+      "gruppe": "Ruhebeobachtung",
+      "feld": "Wachheit / Verhalten",
+      "wert": "wach, aufmerksam"
+    },
+    {
+      "id": "KB-03",
+      "abschnitt": "6 Befund",
+      "gruppe": "Ruhebeobachtung",
+      "feld": "Haltung und Tonus",
+      "wert": "vermindert (hypoton)"
+    },
+    {
+      "id": "KB-04",
+      "abschnitt": "6 Befund",
+      "gruppe": "Ruhebeobachtung",
+      "feld": "Atmung in Ruhe",
+      "wert": "unauffällig"
+    },
+    {
+      "id": "KB-05",
+      "abschnitt": "6 Befund",
+      "gruppe": "Ruhebeobachtung",
+      "feld": "Reaktion auf Berührung an Gesicht und Mund",
+      "wert": "überempfindlich / Abwehr"
+    },
+    {
+      "id": "KB-06",
+      "abschnitt": "6 Befund",
+      "gruppe": "Orofazial",
+      "feld": "Anatomische Auffälligkeiten",
+      "wert": "keine"
+    },
+    {
+      "id": "KB-07",
+      "abschnitt": "6 Befund",
+      "gruppe": "Orofazial",
+      "feld": "Oralmotorik",
+      "wert": "Lippenschluss eingeschränkt; vermehrter Speichelfluss"
+    },
+    {
+      "id": "KB-08",
+      "abschnitt": "6 Befund",
+      "gruppe": "Orofazial",
+      "feld": "Orale Reflexe",
+      "wert": "altersentsprechend"
+    },
+    {
+      "id": "KB-09",
+      "abschnitt": "6 Befund",
+      "gruppe": "Orofazial",
+      "feld": "Non-nutritives Saugen",
+      "wert": "unauffällig"
+    },
+    {
+      "id": "KB-10",
+      "abschnitt": "6 Befund",
+      "gruppe": "Mahlzeit",
+      "feld": "Saug-Schluck-Atem-Koordination",
+      "wert": "koordiniert"
+    },
+    {
+      "id": "KB-11",
+      "abschnitt": "6 Befund",
+      "gruppe": "Mahlzeit",
+      "feld": "Eingeschränkte Ess- und Trinkfertigkeiten",
+      "wert": "Kauen; Trinken aus dem Becher"
+    },
+    {
+      "id": "KB-12",
+      "abschnitt": "6 Befund",
+      "gruppe": "Mahlzeit",
+      "feld": "Zeichen für Penetration/Aspiration",
+      "wert": "keine"
+    },
+    {
+      "id": "KB-13",
+      "abschnitt": "6 Befund",
+      "gruppe": "Mahlzeit",
+      "feld": "Stresssignale / Verhalten während der Mahlzeit",
+      "wert": "keine"
+    },
+    {
+      "id": "KB-14",
+      "abschnitt": "6 Befund",
+      "gruppe": "Einordnung",
+      "feld": "p-FOIS (Level 1–5)",
+      "wert": "4 vollständig oral mit Einschränkung bestimmter Konsistenzen"
+    },
+    {
+      "id": "KB-15",
+      "abschnitt": "6 Befund",
+      "gruppe": "Entwicklung",
+      "feld": "Grobmotorik – höchste erreichte Stufe",
+      "wert": "freies Sitzen"
+    },
+    {
+      "id": "KB-16",
+      "abschnitt": "6 Befund",
+      "gruppe": "Entwicklung",
+      "feld": "Fütterfertigkeiten im Vergleich zum (korrigierten) Alter",
+      "wert": "bis 3 Monate verzögert"
+    },
+    {
+      "id": "KB-17",
+      "abschnitt": "6 Befund",
+      "gruppe": "Einordnung",
+      "feld": "Einordnung",
+      "wert": "Dysphagie und Fütterstörung"
+    },
+    {
+      "id": "KB-18",
+      "abschnitt": "6 Befund",
+      "gruppe": "Einordnung",
+      "feld": "Betroffene Bereiche (PFD)",
+      "wert": "Ess- / Trinkfertigkeiten; psychosozial"
+    },
+    {
+      "id": "KB-19",
+      "abschnitt": "6 Befund",
+      "gruppe": "Einordnung",
+      "feld": "Klinische Einschätzung Schlucksicherheit",
+      "wert": "eingeschränkt"
+    },
+    {
+      "id": "KB-20",
+      "abschnitt": "6 Befund",
+      "gruppe": "Empfehlung",
+      "feld": "Instrumentelle Diagnostik anregen",
+      "wert": "nein"
+    },
+    {
+      "id": "KB-21",
+      "abschnitt": "6 Befund",
+      "gruppe": "Empfehlung",
+      "feld": "Empfohlene Konsistenzen (IDDSI)",
+      "wert": "0 – dünnflüssig; 4 – püriert / stark angedickt"
+    },
+    {
+      "id": "KB-22",
+      "abschnitt": "6 Befund",
+      "gruppe": "Empfehlung",
+      "feld": "Weitere Empfehlungen",
+      "wert": "Position / Haltung; Ernährungsberatung"
+    },
+    {
+      "id": "KE-01",
+      "abschnitt": "7 Abschluss Erstdiagnostik",
+      "gruppe": "Diagnostik",
+      "feld": "Status Erstdiagnostik",
+      "wert": "abgeschlossen"
+    },
+    {
+      "id": "KE-02",
+      "abschnitt": "7 Abschluss Erstdiagnostik",
+      "gruppe": "Diagnostik",
+      "feld": "Therapieindikation",
+      "wert": "ja"
+    },
+    {
+      "id": "KE-03",
+      "abschnitt": "7 Abschluss Erstdiagnostik",
+      "gruppe": "Therapieplanung",
+      "feld": "Therapieschwerpunkte",
+      "wert": "Position & Haltung; Ess- und Trinkfertigkeiten"
+    },
+    {
+      "id": "KE-04",
+      "abschnitt": "7 Abschluss Erstdiagnostik",
+      "gruppe": "Therapieziel",
+      "feld": "Alltagssituation des Ziels",
+      "wert": "Mahlzeit in der Familie"
+    },
+    {
+      "id": "KE-05",
+      "abschnitt": "7 Abschluss Erstdiagnostik",
+      "gruppe": "Therapieziel",
+      "feld": "Therapieziel (SMART) = GAS-Stufe 0",
+      "wert": "Bis 15.01.2027 isst L. bei der Familienmahlzeit 3 Löffel weiche Stückchen (IDDSI 6) ohne Würgen, Mahlzeit ≤ 30 Min."
+    },
+    {
+      "id": "KE-06",
+      "abschnitt": "7 Abschluss Erstdiagnostik",
+      "gruppe": "Therapieziel",
+      "feld": "GAS-Ausgangsstufe",
+      "wert": "−1"
+    },
+    {
+      "id": "KE-07",
+      "abschnitt": "7 Abschluss Erstdiagnostik",
+      "gruppe": "Therapieplanung",
+      "feld": "Frequenz",
+      "wert": "1× pro Woche"
+    },
+    {
+      "id": "KE-08",
+      "abschnitt": "7 Abschluss Erstdiagnostik",
+      "gruppe": "Therapieplanung",
+      "feld": "Heimanleitung für Bezugspersonen",
+      "wert": "schriftlich mit Übungsprotokoll; mit Fotos / Video (und Protokoll)"
+    },
+    {
+      "id": "KE-09",
+      "abschnitt": "7 Abschluss Erstdiagnostik",
+      "gruppe": "Zusammenarbeit",
+      "feld": "Gewichtskontrollen mit Kinderärzt:in abgesprochen",
+      "wert": "ja"
+    },
+    {
+      "id": "KE-10",
+      "abschnitt": "7 Abschluss Erstdiagnostik",
+      "gruppe": "Bericht",
+      "feld": "Bericht an Kinderärzt:in",
+      "wert": "ausführlicher Bericht (auf Verordnung angefordert)"
+    },
+    {
+      "id": "KZ-01",
+      "abschnitt": "8 Zwischenbewertung",
+      "gruppe": "Zwischenbewertung",
+      "feld": "Datum",
+      "wert": "2027-01-15"
+    },
+    {
+      "id": "KZ-02",
+      "abschnitt": "8 Zwischenbewertung",
+      "gruppe": "Zwischenbewertung",
+      "feld": "Zielerreichung (GAS)",
+      "wert": "0 erwartetes Ergebnis (SMART-Ziel erreicht)"
+    },
+    {
+      "id": "KZ-03",
+      "abschnitt": "8 Zwischenbewertung",
+      "gruppe": "Wiederholung",
+      "feld": "p-FOIS (Level 1–5)",
+      "wert": "5 vollständig oral ohne Einschränkung (altersentsprechend)"
+    },
+    {
+      "id": "KZ-04",
+      "abschnitt": "8 Zwischenbewertung",
+      "gruppe": "Wiederholung",
+      "feld": "Gedeihen laut Kinderärzt:in",
+      "wert": "stabil / perzentilenparallel"
+    },
+    {
+      "id": "KZ-05",
+      "abschnitt": "8 Zwischenbewertung",
+      "gruppe": "Wiederholung",
+      "feld": "Typische Mahlzeitdauer",
+      "wert": "15–30 Min."
+    },
+    {
+      "id": "KZ-06",
+      "abschnitt": "8 Zwischenbewertung",
+      "gruppe": "Wiederholung",
+      "feld": "Sicher gegessene / getrunkene Konsistenzen (IDDSI)",
+      "wert": "0 – dünnflüssig; 4 – püriert / stark angedickt; 6 – weich & mundgerecht"
+    },
+    {
+      "id": "KZ-07",
+      "abschnitt": "8 Zwischenbewertung",
+      "gruppe": "Wiederholung",
+      "feld": "Belastung der Familie durch die Mahlzeiten",
+      "wert": "gering"
+    },
+    {
+      "id": "KZ-08",
+      "abschnitt": "8 Zwischenbewertung",
+      "gruppe": "Wiederholung",
+      "feld": "Warnzeichen im Verlauf",
+      "wert": "keine"
+    },
+    {
+      "id": "KZ-09",
+      "abschnitt": "8 Zwischenbewertung",
+      "gruppe": "Bewertung",
+      "feld": "Messbarer Fortschritt",
+      "wert": "ja"
+    },
+    {
+      "id": "KZ-10",
+      "abschnitt": "8 Zwischenbewertung",
+      "gruppe": "Bewertung",
+      "feld": "Entscheidung",
+      "wert": "Folgeverordnung anregen"
+    },
+    {
+      "id": "KZ-11",
+      "abschnitt": "8 Zwischenbewertung",
+      "gruppe": "Bewertung",
+      "feld": "Therapieziel neu formuliert",
+      "wert": "ja"
+    }
+  ],
+  "screening": [
+    {
+      "sc_modul": "KIDYS",
+      "sc_instrument": "KIDYS-S1",
+      "sc_datum": "2026-11-02",
+      "sc_score": "durchgeführt (Bogen)",
+      "sc_einordnung": null,
+      "sc_konsequenz": []
+    },
+    {
+      "sc_modul": "KIDYS",
+      "sc_instrument": "KIDYS-S2",
+      "sc_datum": "2026-11-02",
+      "sc_score": "4 vollständig oral mit Einschränkung bestimmter Konsistenzen",
+      "sc_einordnung": null,
+      "sc_konsequenz": []
+    },
+    {
+      "sc_modul": "KIDYS",
+      "sc_instrument": "KIDYS-O1",
+      "sc_datum": "2026-11-02",
+      "sc_score": "GAS 0 · p-FOIS 5 (Ausgang 4)",
+      "sc_einordnung": null,
+      "sc_konsequenz": []
+    }
+  ]
+}
